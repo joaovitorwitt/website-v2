@@ -14,52 +14,55 @@ import Projects from "./pages/Projects";
 import Project from "./pages/Project";
 import ThankYouContact from "./pages/ThankYouContact";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/articles",
-    element: <Articles />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "articles/:id",
-    element: <Article />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/newsletter",
-    element: <Newsletter />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/thankyou",
-    element: <ThankYou />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/projects",
-    element: <Projects />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/thanks",
-    element: <ThankYouContact />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/projects/:id",
-    element: <Project />,
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/about",
+      element: <About />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/articles",
+      element: <Articles />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "articles/:id",
+      element: <Article />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/newsletter",
+      element: <Newsletter />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/thankyou",
+      element: <ThankYou />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/projects",
+      element: <Projects />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/thanks",
+      element: <ThankYouContact />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/projects/:id",
+      element: <Project />,
+    },
+  ],
+  { basename: "/website-v2" }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
