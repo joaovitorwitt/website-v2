@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wesbite-v2/static/css/main.ace67631.css",
-    "main.js": "/wesbite-v2/static/js/main.eb0a1b2f.js",
+    "main.js": "/wesbite-v2/static/js/main.5c3fc313.js",
     "static/js/787.40303df4.chunk.js": "/wesbite-v2/static/js/787.40303df4.chunk.js",
     "static/media/stop-studying-programming.png": "/wesbite-v2/static/media/stop-studying-programming.63d0103c14eb8752182e.png",
     "static/media/high-level-project.png": "/wesbite-v2/static/media/high-level-project.e1b19d5aa49c492fa46b.png",
@@ -22,11 +22,11 @@
     "static/media/sparkle_alt_light.png": "/wesbite-v2/static/media/sparkle_alt_light.b19cff272d282b866648.png",
     "index.html": "/wesbite-v2/index.html",
     "main.ace67631.css.map": "/wesbite-v2/static/css/main.ace67631.css.map",
-    "main.eb0a1b2f.js.map": "/wesbite-v2/static/js/main.eb0a1b2f.js.map",
+    "main.5c3fc313.js.map": "/wesbite-v2/static/js/main.5c3fc313.js.map",
     "787.40303df4.chunk.js.map": "/wesbite-v2/static/js/787.40303df4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ace67631.css",
-    "static/js/main.eb0a1b2f.js"
+    "static/js/main.5c3fc313.js"
   ]
 }
