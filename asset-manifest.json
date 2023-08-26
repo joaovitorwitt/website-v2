@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/wesbite-v2/static/css/main.ace67631.css",
+    "main.js": "/wesbite-v2/static/js/main.eb0a1b2f.js",
+    "static/js/787.40303df4.chunk.js": "/wesbite-v2/static/js/787.40303df4.chunk.js",
+    "static/media/stop-studying-programming.png": "/wesbite-v2/static/media/stop-studying-programming.63d0103c14eb8752182e.png",
+    "static/media/high-level-project.png": "/wesbite-v2/static/media/high-level-project.e1b19d5aa49c492fa46b.png",
+    "static/media/physics-project.png": "/wesbite-v2/static/media/physics-project.5ef069054cc3f8b118d5.png",
+    "static/media/vertical-ai.png": "/wesbite-v2/static/media/vertical-ai.877d394fb65071679efb.png",
+    "static/media/blockchain-project.png": "/wesbite-v2/static/media/blockchain-project.df2e854fdcb5ea216206.png",
+    "static/media/productivity-app.png": "/wesbite-v2/static/media/productivity-app.a49b7e9a5c737973baa6.png",
+    "static/media/statue_hero.png": "/wesbite-v2/static/media/statue_hero.5c24b95dfabc8d86a279.png",
+    "static/media/walking-on-thin-ice-ai.png": "/wesbite-v2/static/media/walking-on-thin-ice-ai.bf7b42d6fed9f7eb5601.png",
+    "static/media/placeholder2.png": "/wesbite-v2/static/media/placeholder2.d8fc6fa80ef1c225a8d6.png",
+    "static/media/placeholder.png": "/wesbite-v2/static/media/placeholder.f98b755bdc99acbee3f4.png",
+    "static/media/write-code-like-human.png": "/wesbite-v2/static/media/write-code-like-human.0c5f3cc012eda4f7ed52.png",
+    "static/media/computer-science-field.png": "/wesbite-v2/static/media/computer-science-field.cd593d52398b884e4f11.png",
+    "static/media/how-ai-will-transform-education.png": "/wesbite-v2/static/media/how-ai-will-transform-education.cb88e59ab8eddb31bfda.png",
+    "static/media/academic-scraper.png": "/wesbite-v2/static/media/academic-scraper.44f823f004e26aea49fe.png",
+    "static/media/write-commit-messages-right.jpg": "/wesbite-v2/static/media/write-commit-messages-right.2af21f8b3ab47d5208a5.jpg",
+    "static/media/profile-picture.jpg": "/wesbite-v2/static/media/profile-picture.dc35f73861503b139ac6.jpg",
+    "static/media/sparkle_alt_light.png": "/wesbite-v2/static/media/sparkle_alt_light.b19cff272d282b866648.png",
+    "index.html": "/wesbite-v2/index.html",
+    "main.ace67631.css.map": "/wesbite-v2/static/css/main.ace67631.css.map",
+    "main.eb0a1b2f.js.map": "/wesbite-v2/static/js/main.eb0a1b2f.js.map",
+    "787.40303df4.chunk.js.map": "/wesbite-v2/static/js/787.40303df4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ace67631.css",
+    "static/js/main.eb0a1b2f.js"
+  ]
+}
