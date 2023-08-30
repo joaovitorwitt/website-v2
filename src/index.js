@@ -61,7 +61,7 @@ const router = createBrowserRouter(
       element: <Project />,
     },
   ],
-  { basename: "/website-v2" }
+  { basename: "/" }
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
