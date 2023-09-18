@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.90b324c5.css",
-    "main.js": "/static/js/main.8c6f5966.js",
+    "main.js": "/static/js/main.039c74b0.js",
     "static/js/787.40303df4.chunk.js": "/static/js/787.40303df4.chunk.js",
     "static/media/stop-studying-programming.png": "/static/media/stop-studying-programming.63d0103c14eb8752182e.png",
     "static/media/high-level-project.png": "/static/media/high-level-project.e1b19d5aa49c492fa46b.png",
@@ -9,6 +9,7 @@
     "static/media/vertical-ai.png": "/static/media/vertical-ai.877d394fb65071679efb.png",
     "static/media/blockchain-project.png": "/static/media/blockchain-project.df2e854fdcb5ea216206.png",
     "static/media/productivity-app.png": "/static/media/productivity-app.a49b7e9a5c737973baa6.png",
+    "static/media/kardashev-scale.jpg": "/static/media/kardashev-scale.e19423dd34f3e839217e.jpg",
     "static/media/statue_hero.png": "/static/media/statue_hero.5c24b95dfabc8d86a279.png",
     "static/media/walking-on-thin-ice-ai.png": "/static/media/walking-on-thin-ice-ai.bf7b42d6fed9f7eb5601.png",
     "static/media/placeholder2.png": "/static/media/placeholder2.d8fc6fa80ef1c225a8d6.png",
@@ -22,11 +23,11 @@
     "static/media/sparkle_alt_light.png": "/static/media/sparkle_alt_light.b19cff272d282b866648.png",
     "index.html": "/index.html",
     "main.90b324c5.css.map": "/static/css/main.90b324c5.css.map",
-    "main.8c6f5966.js.map": "/static/js/main.8c6f5966.js.map",
+    "main.039c74b0.js.map": "/static/js/main.039c74b0.js.map",
     "787.40303df4.chunk.js.map": "/static/js/787.40303df4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90b324c5.css",
-    "static/js/main.8c6f5966.js"
+    "static/js/main.039c74b0.js"
   ]
 }
