@@ -4,6 +4,7 @@ import WriteCommitMessagesRight from "./assets/images/article-images/write-commi
 import stopStudyingProgramming from "./assets/images/article-images/stop-studying-programming.png";
 import writeCodeLikeHuman from "./assets/images/article-images/write-code-like-human.png";
 import computerScienceField from "./assets/images/article-images/computer-science-field.png";
+import kardashevScaleImage from "./assets/images/article-images/kardashev-scale.jpg";
 
 const ArticleList = [
   {
@@ -603,6 +604,119 @@ const ArticleList = [
     `,
     image: computerScienceField,
     date: "25 December, 2023",
+  },
+  {
+    id: 7,
+    title: "Will Humanity Ever Reach Its Peak?",
+    description:
+      "Taking notice of world events that happened in the past few years and are currently happening, whether it's wars, climate change, or natural disasters, one main question that comes up with the subject: Will humanity ever reach its peak?",
+    content: `<p>The universe as we know is more than 13 billion years old.</p>
+    <br>
+    <p>Just so you know the difference between a million and a billion, a million seconds is around 12 days. On the other hand, a billion seconds is approximately 32 years. Big difference.</p>
+    <br>
+    <p>When we take a look at the cosmic scale, we can say for sure that humanity is pretty young when we really stop to look at the time.</p>
+    <br>
+    <h3>Historical Context</h3>
+    <br>
+    <p>The Kardashev Scale was born when the Russian/Soviet Astrophysicist Nikolai Kardashev was trying to comprehend life outside earth.</p>
+    <br>
+    <p>He noticed that if we could determine the amount of energy that some species consume, we can know their technological advancements.</p>
+    <br>
+    <p>And if we know the technological advancement of a species we can develop a method to measure that.</p>
+    <br>
+    <p>So The Kardashev Scale was created.</p>
+    <br>
+    <p>A method of measuring the level of a civilization based on the amount of energy that the civilization consumes.</p>
+    <br>
+    <p>Those civilizations range from extracting all the energy available from their planet, to colonizing galaxies and using black holes as sources of energy.</p>
+    <br>
+    <p>Pretty cool right?</p>
+    <br>
+    <p>So let's take a brief look at the main types of civilizations.</p>
+    <br>		
+    <p>A Type 1 civilization is able to harness all the energy at a planetary level.</p>
+    <br>
+    <p>A Type 2 civilization on the other hand, is capable of extracting all the energy from their star and planetary system.</p>
+    <br>
+    <p>And a Type 3, is able to use all the energy available in their current galaxy.</p>
+    <br>
+    <p>It is important to notice that the scale goes on and on, but for the sake of our understanding of the universe, let's keep this list short.</p>
+    <br>
+    <p>So get in your spaceships and let's look at these civilizations.</p>
+    <br>
+    <h3>Type 1</h3>
+    <br>
+    <p>I am going to start by breaking your heart, the human race has not reached Type 1 yet.</p>
+    <br>
+    <p>We are still using energy resources from dead animals and plants.</p>
+    <br>
+    <p>Humanity has come a long way, in the past 200 years we went from extreme poverty to putting a man on the moon.</p>
+    <br>
+    <p>Still, we have a long road until we reach Type 1.</p>
+    <br>
+    <p>But what a Type 1 civilization would look like you might ask</p>
+    <br>
+    <p>Well, for starters, a Type 1 civilization would be able to completely shift the weather as it sees fit.</p>
+    <br>
+    <p>At the same time, the civilization would have total control over natural events such as volcanoes, earthquakes, hurricanes, and so on.</p>
+    <br>
+    <p>In other words, harnessing all the energy available from their planet and outside sources from the earth, like the sun energy.</p>
+    <br>
+    <p>A civilization like that would also be able to achieve amazing stuff like change the weather, control pollution, bring back extinct animals, recreate ecosystems, and much more.</p>
+    <br>
+    <p>In summary, they would be able to control anything on a planetary level.</p>
+    <br>
+    <h3>Type 2</h3>
+    <br>
+    <p>Type 2 civilizations are also known as “stellar civilizations”, since they are able to harness all the energy from their planetary system.</p>
+    <br>
+    <p>Here is when things start to get interesting.</p>
+    <br>
+    <p>Even though humanity will only reach Type 2 civilization in the next thousand years we can still picture what that would look like.</p>
+    <br>
+    <p>A Dyson Structure is a device built around the sun with the purpose of gathering all the energy available from the sun. This device was first presented by Freeman Dyson.</p>
+    <br>
+    <p>Imagine a gigantic hollow sphere built around the sun, that's what a Dyson sphere is.</p>
+    <br>
+    <p>With that amount of energy a Type 2 civilization might be able to perform space travels, terraforming planets, mine asteroids, achieving amazing breakthroughs in biology, physics, engineering, medicine, chemistry, and so on.</p>
+    <br>
+    <p>Hypothetically, a Type 2 civilization would be able to completely take over the entire planetary system, performing space travels, gathering resources, building massive structures on planets, and achieving all kinds of breakthroughs.</p>
+    <br>
+    <p>But again, this is child play compared to a Type 3 civilization. </p>
+    <br>
+    <h3>Type 3</h3>
+    <br>
+    <p>Civilizations of Type 3 are capable of using all the energy available from their galaxy.</p>
+    <br>
+    <p>Just for context, the milky way is around 100.000 light years in diameter. In only one year, light can travel a distance of 9.5 trillion kilometers, you can do the math, that is way too big.</p>
+    <br>
+    <p>Our radio transmissions go as far as 200 light years, that's nothing compared to the size of the milky way.</p>
+    <br>
+    <p>But believe if you want, a Type 3 civilization is able to control the energy of its entire galaxy.</p>
+    <br>
+    <p>How? That’s a question for our future descendents.</p>
+    <br>
+    <p>A civilization of this magnitude would be able to harness energy from black holes, move planets, perform interstellar travels, send messages to the other side of the galaxy, you name it.</p>
+    <br>
+    <p>A galaxy would be like a white canvas for them, ready to be painted as they wish.</p>
+    <br>
+    <p>Perhaps those types of civilizations are beyond our current understanding of the universe, or perhaps they don't even exist, and that is either scary or awesome because we might be the first ones to reach this kind of level.</p>
+    <br>
+    <h3>We might have some problems on the way</h3>
+    <br>
+    <p>In life, not everything happens as we expect.</p>
+    <br>
+    <p>This is precisely true for human civilization. Because, as we know, throughout the entire span of time, earth has faced multiple events like asteroid collision, glacial ages, extinctions, the list goes on.</p>
+    <br>
+    <p>Before we even think about other planets, we must solve problems right here on earth, otherwise we won't be able to evolve if we go extinct in the next 100 to 200 years.</p>
+    <br>
+    <p>And for the first time in history we have the power to destroy ourselves.</p>
+    <br>
+    <p>The Kardashev Scale shines light on a bright future ahead of us with countless possibilities, but let's not forget that everything begins right here on earth.</p>
+    <br>   
+    `,
+    image: kardashevScaleImage,
+    date: "18th August 2023",
   },
 ];
 
