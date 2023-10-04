@@ -6,8 +6,10 @@ import Hero from "../components/Hero";
 import PortfolioSection from "../components/PortfolioSection";
 import ScrollReveal from "scrollreveal";
 import { useEffect } from "react";
+import { useTheme } from "..";
 
 export default function Home() {
+  const { currentTheme } = useTheme();
   useEffect(() => {
     const sr = ScrollReveal({
       distance: "50px",
@@ -32,13 +34,13 @@ export default function Home() {
   });
 
   return (
-    <>
+    <div className="project-wrapper" data-theme={currentTheme}>
       <Header></Header>
       <Hero></Hero>
       <AboutSection />
       <PortfolioSection />
       <ContactSection />
       <Footer />
-    </>
+    </div>
   );
 }

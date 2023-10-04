@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./assets/css/index.css";
 import reportWebVitals from "./reportWebVitals";
@@ -13,6 +13,7 @@ import ThankYou from "./pages/ThankYou";
 import Projects from "./pages/Projects";
 import Project from "./pages/Project";
 import ThankYouContact from "./pages/ThankYouContact";
+import { createContext } from "react";
 
 const router = createBrowserRouter(
   [
@@ -64,10 +65,40 @@ const router = createBrowserRouter(
   { basename: "/" }
 );
 
+const ThemeContext = createContext();
+
+export default function ThemeProvider({ children }) {
+  const [currentTheme, setCurrentTheme] = useState(() => {
+    // initialize theme from local storage
+    const storedTheme = localStorage.getItem("theme");
+    return storedTheme || "dark";
+  });
+
+  useEffect(() => {
+    localStorage.setItem("theme", currentTheme);
+  }, [currentTheme]);
+
+  const toggleTheme = () => {
+    setCurrentTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
+  };
+
+  return (
+    <ThemeContext.Provider value={{ currentTheme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+}
+
+export function useTheme() {
+  return useContext(ThemeContext);
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
   </React.StrictMode>
 );
 

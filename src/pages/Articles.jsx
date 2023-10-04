@@ -4,8 +4,11 @@ import { useEffect } from "react";
 import Header from "../components/Header";
 // importing articles file
 import ArticleList from "../articles.js";
+import { useTheme } from "..";
 
 export default function Articles() {
+  const { currentTheme } = useTheme();
+
   useEffect(() => {
     const sr = ScrollReveal({
       distance: "50px",
@@ -16,7 +19,7 @@ export default function Articles() {
   });
 
   return (
-    <>
+    <div className="articles-page-wrapper" data-theme={currentTheme}>
       <Header />
       <div className="container">
         <div className="posts-wrapper">
@@ -50,6 +53,6 @@ export default function Articles() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }

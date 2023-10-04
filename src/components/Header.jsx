@@ -1,8 +1,13 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useTheme } from "..";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   const [isMenuActive, setIsMenuActive] = useState(false);
+  const { currentTheme, toggleTheme } = useTheme();
+  const iconTheme = currentTheme === "dark" ? faSun : faMoon;
 
   const toggleMenu = () => {
     setIsMenuActive((prevState) => !prevState);
@@ -23,7 +28,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="header" id="home">
+    <header className="header" id="home" data-theme={currentTheme}>
       <nav className="navbar container">
         <Link to={"/"} className="logo">
           João.
@@ -41,10 +46,16 @@ export default function Header() {
             <i className="fa-solid fa-xmark close-icon"></i>
           </button>
 
-          {/* <button type="button" class="button icon-button theme-toggle-button">
-            <i class="fa-solid fa-sun theme-off"></i>
-            <i class="fa-solid fa-moon theme-on"></i>
-          </button> */}
+          <button
+            type="button"
+            className={`button icon-button theme-toggle-button`}
+            onClick={toggleTheme}
+          >
+            <FontAwesomeIcon
+              icon={iconTheme}
+              style={{ fontSize: "2.4rem", margin: "auto" }}
+            />
+          </button>
         </div>
 
         <div className={`menu ${isMenuActive ? "active" : ""}`}>

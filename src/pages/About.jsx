@@ -5,8 +5,10 @@ import { Link } from "react-router-dom";
 import ScrollReveal from "scrollreveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { useTheme } from "..";
 
 export default function About() {
+  const { currentTheme } = useTheme();
   useEffect(() => {
     const sr = ScrollReveal({
       distance: "50px",
@@ -19,7 +21,7 @@ export default function About() {
   });
 
   return (
-    <>
+    <div className="about-page-wrapper" data-theme={currentTheme}>
       <Header />
       <div className="container">
         <div className="about-me-wrapper">
@@ -111,6 +113,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

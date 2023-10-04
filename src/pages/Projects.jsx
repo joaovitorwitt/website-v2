@@ -3,8 +3,11 @@ import Header from "../components/Header";
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import projectsList from "../projects.js";
+import { useTheme } from "..";
 
 export default function Projects() {
+  const { currentTheme } = useTheme();
+
   useEffect(() => {
     const sr = ScrollReveal({
       distance: "50px",
@@ -21,7 +24,7 @@ export default function Projects() {
   // TODO - come up with mathematical formula to always get results in the range of 6 (perhaps the remaining operator)
 
   return (
-    <>
+    <div className="projects-page-wrapper" data-theme={currentTheme}>
       <Header />
       <div className="container">
         <h1 className="title main-title-projects">
@@ -61,6 +64,6 @@ export default function Projects() {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 }
