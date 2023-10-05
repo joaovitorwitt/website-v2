@@ -5,6 +5,8 @@ import stopStudyingProgramming from "./assets/images/article-images/stop-studyin
 import writeCodeLikeHuman from "./assets/images/article-images/write-code-like-human.png";
 import computerScienceField from "./assets/images/article-images/computer-science-field.png";
 import kardashevScaleImage from "./assets/images/article-images/kardashev-scale.jpg";
+import web3BasicsImage from "./assets/images/article-images/web3-basics-article.png";
+import writeDocumentation from "./assets/images/article-images/write-documentation.png";
 
 const ArticleList = [
   {
@@ -106,7 +108,7 @@ const ArticleList = [
     <p>As a wise man once said: “I may be a madman, but I am a conscious madman”.</p>
     `,
     image: howAIWillTransformEducation,
-    date: "23 August, 2023",
+    date: "18th August 2023",
   },
   {
     id: 2,
@@ -215,7 +217,7 @@ const ArticleList = [
     <p>To finish up, the best thing we can do right now is see the long-term vision, and not fall for the short-term hype.</p><br>
     `,
     image: walkingOnThinIceWithAI,
-    date: "24 July, 2023",
+    date: "25th August 2023",
   },
   {
     id: 3,
@@ -336,7 +338,7 @@ const ArticleList = [
     <p>If by any case you want to learn more about this subject, consider visiting this official <a href="https://github.blog/2022-06-30-write-better-commits-build-better-projects/" target="_blank"><u>github page.</u></a></p><br>
     `,
     image: WriteCommitMessagesRight,
-    date: "04 April, 2023",
+    date: "1st September 2023",
   },
   {
     id: 4,
@@ -408,7 +410,7 @@ const ArticleList = [
     <p>You will never learn how to play some sport, by watching others playing. And, at the end of the day, programming is the same thing.</p>
     `,
     image: stopStudyingProgramming,
-    date: "21 January, 2023",
+    date: "8th September 2023",
   },
   {
     id: 5,
@@ -466,7 +468,7 @@ const ArticleList = [
     <p>Therefore, dedicating some of your time to writing test code is essential because when the source code changes, the test code also changes. And depending on the quality of the test code, it can be harder to fix in the long run, and the problem can become a snowball.</p>
     `,
     image: writeCodeLikeHuman,
-    date: "10 May, 2023",
+    date: "15th September 2023",
   },
   {
     id: 6,
@@ -603,7 +605,7 @@ const ArticleList = [
 
     `,
     image: computerScienceField,
-    date: "25 December, 2023",
+    date: "22th September 2023",
   },
   {
     id: 7,
@@ -716,7 +718,297 @@ const ArticleList = [
     <br>   
     `,
     image: kardashevScaleImage,
-    date: "18th August 2023",
+    date: "29th September 2023",
+  },
+  {
+    id: 8,
+    title: "Preparing for Blockchain, Web 3.0, and Solidity",
+    description:
+      "They say that life is all about facing challenges and to face challenges we need to be ready. Learn all the basics to get you going with web 3 technology.",
+    content: `<p>Life is all about getting ready to face the challenges that life throws at us, and in order to do that we need to prepare, it does not matter if you are moving to another city or learning a new language, preparation is always necessary.</p>
+    <br>
+    <p>That's why I decided to write this article, to prepare those who want to learn about blockchain, web 3.0, and solidity.</p>
+    <br>
+    <p>As I mentioned, this article will not teach everything you need to know about these topics, but it will definitely prepare you for your journey of learning.</p>
+    <br>
+    <p>So let's dive straight into it.</p>
+    <br>
+    <h3>Blockchain</h3>
+    <br>
+    <p>Think of blockchain as a public, network-wide database. The "block" stores data, often transaction records, and includes the current block's hash and the previous block's hash.</p>
+    <br>
+    <p>The "chain" comes into play because each block contains the hash of the previous one. This chaining ensures data security and immutability across all connected devices.</p>
+    <br>
+    <h3>Blockchain Use Cases</h3>
+    <br>
+    <p>I think at some moment in school whether we were learning math or geography, we all thought of something like: “How is this important to my life?” or “Why should I care to learn about this?”.</p>
+    <br>
+    <p>So, today is your lucky day because I am going straight into the practical examples.</p>
+    <br>
+    <p>In a not-so-distant future, we might not need banks anymore, since the only reason for banks to exist is to ensure that our money will be safe, but we all know that this is not entirely true.</p>
+    <br>
+    <p>Right now, we only have Cryptocurrencies to achieve that, allowing users to send transactions to another side of the globe in only a few seconds. This alone is already huge, but imagine the scenario where we are able to control our currencies directly through the blockchain. I'm not talking about digital cash, I'm talking about real currencies that are not controlled by some bank or government.,</p>
+    <br>
+    <p>Another awesome use case for blockchain is for ownership and transparency, in the blockchain we can create DApps like reliable voting systems</p>
+    <br>
+    <p>I can also mention data security, privacy, and decentralization, in other words, software that is not controlled by some entity or company that can flip a switch and change the whole game for their own gain.</p>
+    <br>
+    <h3>Smart Contracts</h3>
+    <br>
+    <p>The term “Smart Contracts” can be a bit confusing, when we think about contracts in general we always imagine a lot of text on a piece of paper with a pen beside it.</p>
+    <br>
+    <p>Because of that, it's always a good practice to take notice of the differences, since they are not the same thing.</p>
+    <br>
+    <p>Smart Contracts are basically code that achieves some functionality or goal. This code can vary from transferring cryptocurrency to a voting software.</p>
+    <br>
+    <h3>Wallets</h3>
+    <br>
+    <p>Wallets on the other hand can be thought about the same way as normal wallets. Since wallets adopt the same concept as physical wallets, we can think of various differences.</p>
+    <br>
+    <p>Wallets are a way to access and interact with smart contracts, they can also be used to store cryptocurrencies or digital assets. Wallets are your whole identity on the blockchain.</p>
+    <br>
+    <h3>Functions</h3>
+    <br>
+    <p>Basically, functions are a block of code that gets the computer to “do something”, just like a verb, and like any other language, solidity has syntax for writing functions.</p>
+    <br>
+    <p>What's cool about Solidity is that we are able to declare different types of functions, let's take a look at some of them.</p>
+    <br>
+    <h3>View Functions</h3>
+    <br>
+    <p>Functions that are marked as ‘view’ will only read data, they will not be able to change variable values, call other functions, or perform any type of operation that does not involve reading data.</p>
+    <br>
+    <h3>Pure Functions</h3>
+    <br>
+    <p>These types of functions will not read or modify any state variable on the contract. They are only used for functions that operate based on the input values.</p>
+    <br>
+    <p>Imagine a function that adds two values, the return value only depends on the parameters.</p>
+    <br>
+    <h3>Function Visibility</h3>
+    <br>
+    <p>Still, on the functions topic, we can set visibility for our functions. That way we can make adjustments based on different situations.</p>
+    <br>
+    <h3>Private Functions</h3>
+    <br>
+    <p>These types of functions can only be called from inside the contract, meaning that only functions within the same contract can call private functions.</p>
+    <br>
+    <p>Imagine that we are developing a function that can level up our character in the game, for this case it is desirable to make this function private, we don't want people in our game calling the function every time, and the game would get tedious very quickly.</p>
+    <br>
+    <p>It is a good practice to set all your functions private. Also, for convention, private functions start with an underscore (_).</p>
+    <br>
+    <h3>Public Functions</h3>
+    <br>
+    <p>When a function is declared as public, it means that anyone or any contract can call it and execute its code.</p>
+    <br>
+    <p>Public functions are usually functions like checking your credit in some game, creating your character in the game, voting in a decentralized application, and transferring some tokens.</p>
+    <br>
+    <h3>External Functions</h3>
+    <br>
+    <p>External functions are somewhat similar to public functions, except that, as the name suggests, they can only be called from external sources.</p>
+    <br>
+    <p>And why would we want this?</p>
+    <br>
+    <p>External functions help the overall contract’s security and gas efficiency at the same time providing an explicit intent of the functionality of the code.</p>
+    <br>
+    <h3>Internal Functions</h3>
+    <br>
+    <p>Internal functions, as you might've guessed, can only be called from within the same contract.</p>
+    <br>
+    <p>Internal functions allow a more precise code, limiting and setting the contracts logic from a single contract.</p>
+    <br>
+    <h3>Modifiers</h3>
+    <br>
+    <p>Modifiers are just like functions, but with the keyword ‘modifier’.</p>
+    <br>
+    <p>We are able to attach modifiers to the end of functions to change the function's behavior. When we call the function with a modifier, the modifier's code gets executed first, then the code inside the actual function.</p>
+    <br>
+    <p>For example, we might have a modifier that ensures that only the contract owner can call specific functions.</p>
+    <br>
+    <h3>Memory Variables</h3>
+    <br>
+    <p>Declaring a variable with the ‘memory’ keyword is like using the RAM of the computer.</p>
+    <br>
+    <p>This means that the data will only be there temporarily, so after our code gets executed the whole thing gets deleted.</p>
+    <br>
+    <h3>Storage Variables</h3>
+    <br>
+    <p>Storage variables are the opposite, they will forever be stored on the blockchain.</p>
+    <br>
+    <p>This means two things, first: it costs more gas since we are technically storing data on the blockchain, and second: once our data gets written to the blockchain, it stays there forever, we cannot change or delete it.</p>
+    <br>
+    <h3>Events</h3>
+    <br>
+    <p>There is only one way for the blockchain to communicate with the outside world, through events.</p>
+    <br>
+    <p>Basically, every time a function gets called or some code gets executed, we might want to fire up an Event to warn our user interface that something happened.</p>
+    <br>
+    <p>A practical example would be having an event that fires up every time you send or receive some tokens.</p>
+    <br>
+    <h3>Mappings</h3>
+    <br>
+    <p>In the real world, a map provides visualization regarding your position on a given place. Having access to a map allows you to navigate from your current location to any desired destination.</p>
+    <br>
+    <p>Mappings in solidity are basically the same thing. They are a key-value pair used to store and look up data.</p>
+    <br>
+    <p>A good example would be a financial app where we can use a mapping to store the user's account number as the key and their current balance as the value.</p>
+    <br>
+    <h3>Inheritance</h3>
+    <br>
+    <p>If you are coming from other languages I bet you know what inheritance is, but for those who don't know I'm going to explain.</p>
+    <br>
+    <p>In Solidity, and many other languages, inheritance is a way to extend the capabilities of a contract. The cool thing about inheritance in solidity is that a contract can be inherited from multiple parent contracts.</p>
+    <br>
+    <h3>Gas</h3>
+    <br>
+    <p>You mean car gas, right?</p>
+    <br>
+    <p>Close, they have the same idea behind them.</p>
+    <br>
+    <p>On Ethereum, and many other blockchains, users have to pay a small fee in order to get their transaction complete.</p>
+    <br>
+    <p>Why is that necessary you might ask?</p>
+    <br>
+    <p>Validating a transaction is a complex problem and it requires a lot of computational work, meaning that, when a function gets executed, every single node on the blockchain runs the same function in order to validate the transaction.</p>
+    <br>
+    <p>That's what makes decentralization so powerful.</p>
+    <br>
+    <h3>Address</h3>
+    <br>
+    <p>Addresses are just like bank accounts, and we use them as a way of ownership.</p>
+    <br>
+    <p>This means that every address on the blockchain can send and receive transactions.</p>
+    <br>
+    <h3>Transactions</h3>
+    <br>
+    <p>We can think of transactions like basic money transactions, but the term is more used as an agreement between two parties, like the execution of a contract, on which the contract interacts with the ecosystem, or validating the information of a user on the blockchain.</p>
+    <br>
+    <h3>51% Attack</h3>
+    <br>
+    <p>By now you know that the blockchain is made up of nodes, and these nodes are just computers, servers, and other devices connected to the network.</p>
+    <br>
+    <p>That's where the 51% attack operates, to ‘hack’ the blockchain the attackers would have to take over 51% of the nodes on the blockchain, allowing them to reverse transactions, spend tokens, and fraud contracts, among other things.</p>
+    <br>
+    <p>But as the network grows with more users, it becomes increasingly difficult to perform a 51% attack, preventing a single entity from taking control of the nodes.</p>
+    <br>
+    <p>The cool thing is, the cost of conducting such an attack often outweighs the potential rewards, that's like using a $100 bill to buy a $50 bill, it's just not worth it.</p>
+    <br>
+    <h3>Wrapping Up</h3>
+    <br>
+    <p>The goal of this article was to provide you with all the concepts necessary to understand the many solidity and blockchain concepts.</p>
+    <br>
+    <p>Now with your current knowledge, you will be able to take your abilities in solidity to the next level by building real projects.</p>
+    `,
+    image: web3BasicsImage,
+    date: "5th October 2023",
+  },
+  {
+    id: 9,
+    title: "The Importance Of Documenting Your Projects",
+    description:
+      "You might not realize this, but documentation is the foundation of programming when it comes to understanding someone's code.",
+    content: `<p>Imagine you are living in the Paleolithic time, hanging out with your tribe, going from one place to another, seeking shelter, food, and other necessities.</p>
+    <br>
+    <p>All seems good, but all of a sudden a member of your tribe sees some colorful fruit and eats it, little did he know that the fruit is actually harmful, causing his death.</p>
+    <br>
+    <p>Tough stuff indeed.</p>
+    <br>
+    <p>Nobody knew that the fruit was poisonous, there was no Google back in that time, there was no teacher, and not even a book mentioning the fact that the fruit could kill you if you ingested it.</p>
+    <br>
+    <p>But what happens now? You might ask.</p>
+    <br>
+    <p>Now you and your tribe have documentation.</p>
+    <br>
+    <p>Wait what?</p>
+    <br>
+    <p>Yeah</p>
+    <br>
+    <p>But is not a documentation as you might have imagined, it is a different kind of documentation.</p>
+    <br>
+    <p>Is a documentation based on knowledge and experience, but still a documentation.</p>
+    <br>
+    <p>We can spot documentation throughout all of our history, since ancient times.</p>
+    <br>
+    <p>We document failures, successes, achievements, breakthroughs, discoveries, everything.</p>
+    <br>
+    <p>So let's see how you can use the power of documenting to level up your skills as a software engineer. </p>
+    <br>
+    <h3>The Basics</h3>
+    <br>
+    <p>Most of the time, we don't need to know every detail about some subject.</p>
+    <br>
+    <p>Like, you don’t need to know how a binary search algorithm works on a scientific level, you just simply need to know that it exists and know when you can implement it, depending on the scenario.</p>
+    <br>
+    <p>There is actually a term for that, it is called abstraction. You can check my full article on the topic.</p>
+    <br>
+    <p>When you are working on a new project the first step is always to refer to the documentation. Especially if you are contributing to Open Source projects.<p>
+    <br>
+    <p>Most of the time you cannot add value to a project if you do not understand the project, as I mentioned, you don't need to understand every little detail, just the necessary to get you going.</p>
+    <br>
+    <h3>Why bother documenting your projects</h3>
+    <br>
+    <p>So why not just build the thing and call it a day?</p>
+    <br>
+    <p>You can absolutely go down this way if you are building a small project, but for a large project, I'm talking enterprise-level thousands of accesses daily, trust me you will need documentation.</p>
+    <br>
+    <p>Documentation allows a person who has never heard of the project, to get some clarity on the project requirements and goals.</p>
+    <br>
+    <p>And, at the same time highlights the essential information about the project when it comes to actual code.</p>
+    <br>
+    <h3>The real reason to document your projects</h3>
+    <br>
+    <p>Documenting your projects is the same thing as constructing a building, you cannot just start putting bricks together without any planning.</p>
+    <br>
+    <p>It all comes down to effective communication.</p>
+    <br>
+    <p>Sometimes we might need to write some documentation regarding the logic of some piece of code, like why we did it this way instead of some other way.</p>
+    <br>
+    <p>Or what was the thought process behind the code? Was it an external factor or an internal one?</p>
+    <br>
+    <p>That's why documentation is important at the end of the day</p>
+    <br>
+    <p>It's about making other people understand the decision-making behind your code.</p>
+    <br>
+    <h3>Here is how to do it</h3>
+    <br>
+    <p>Here is a practical framework for documenting your projects, if you are just starting out on a new project, you don't need any kind of formal documentation.</p>
+    <br>
+    <p>Especially if it's a small project as I mentioned before.</p>
+    <br>
+    <p>Because let's be honest, over time the structure of your project will change, this might be the code that you write or the design pattern you use.</p>
+    <br>
+    <p>What this means is: that just start by using self-describing names for your variables and functions and some comments right and there to perhaps describe your thought process.</p>
+    <br>
+    <p>Self-describing names usually convey purpose or meaning. You also do not want to start throwing a bunch of comments in your code, because most of the time comments just make matters worse when it comes to understanding someone else's code.</p>
+    <br>
+    <p>Instead, what you want to do is place detailed comments on specific areas of your code that will guide a person reading it to understand the code.</p>
+    <br>
+    <p>Once you have all that in place, the structure of your code, the design pattern, the architecture, and the tech stack, you might wanna start a more formal documentation.</p>
+    <br>
+    <p>The reason for this is, that as the codebase gets bigger the harder it gets to find yourself there, especially for new people.</p>
+    <br>
+    <p>And as time goes on you are probably going to forget about the purpose of a function or why did you make such a decision. For that reason is nice to have documentation that not only explains the code on a technical level but also helps people reading it visualize the bigger picture.</p>
+    <br>
+    <h3>Where do I go from now?</h3>
+    <br>
+    <p>There is no barrier stopping you from writing documentation, as far as I know, you can even write docs on toilet paper, as long as people can access and read it.</p>
+    <br>
+    <p>Now that you know the importance of documentation and how it can level up your status as a project builder.</p>
+    <br>
+    <p>Let's go over some tools and resources that can be used to help you with that.</p>
+    <br>
+    <p><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>: This is an excellent way to host your documentation for your project. Given the fact that it offers built-in markdown code and it's so easy to share it with others.</p>
+    <br>
+    <p><a href="https://www.gitbook.com" target="_blank" rel="noreferrer">GitBook</a>: This one is specific for hosting documentation. The best thing is that allows integrations with platforms like Google Analytics, Slack, and Jira. Great choice If you are a solo developer looking to scale your personal projects.</p>
+    <br>
+    <p><a href="https://readthedocs.org" target="_blank" rel="noreferrer">Read the Docs</a>: With this one, you can build your documentation straight from the source code, and it will automatically deploy once you push the changes. You can start for free, and it also comes with various features. </p>
+    <br>
+    <p><a href="https://swagger.io" target="_blank" rel="noreferrer">Swagger</a>: Trust me, if your application deals with APIs you will definitely want to use this. Besides providing a visual interface for your requests, Swagger will also write the documentation based on your API functionality.</p>
+    <br>
+    <p><a href="https://www.mkdocs.org" target="_blank" rel="noreferrer">MkDocs</a>: This one is a no-brainer, simple to use, and it generates static pages for your markdown files. You can also customize it with themes and plugins to make it more appealing if you what I mean.</p>
+    <br>
+
+    `,
+    image: writeDocumentation,
+    date: "12th October 2023",
   },
 ];
 

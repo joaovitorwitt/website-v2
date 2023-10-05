@@ -57,7 +57,7 @@ export default function Projects() {
 
         <div
           className="large-button-container"
-          style={{ marginTop: "3rem", marginBottom: "3rem" }}
+          style={{ paddingTop: "3rem", paddingBottom: "3rem" }}
         >
           <Link to={"/"} className="large-button button-fill">
             Return

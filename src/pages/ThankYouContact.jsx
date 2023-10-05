@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
 import ScrollReveal from "scrollreveal";
+import { useTheme } from "..";
 
 export default function ThankYouContact() {
   useEffect(() => {
@@ -15,8 +16,10 @@ export default function ThankYouContact() {
     sr.reveal(".thankyou-redirections", { origin: "bottom" });
   });
 
+  const { currentTheme } = useTheme();
+
   return (
-    <>
+    <div className="thankyou-page-wrapper" data-theme={currentTheme}>
       <Header />
       <div className="container">
         <div className="thankyou-description">
@@ -34,6 +37,6 @@ export default function ThankYouContact() {
           <Link to={"/articles"}>Check out some articles</Link>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import projectsList from "../projects";
 import Header from "../components/Header";
+import { useTheme } from "..";
 
 export default function Project() {
   const { id } = useParams();
@@ -8,8 +9,11 @@ export default function Project() {
   const project = projectsList.find(
     (project) => project.id === parseInt(id, 10)
   );
+
+  const { currentTheme } = useTheme();
+
   return (
-    <>
+    <div className="project-page-wrapper" data-theme={currentTheme}>
       <Header />
       <div className="container">
         <section className="project-wrapper">
@@ -33,6 +37,6 @@ export default function Project() {
           </div>
         </section>
       </div>
-    </>
+    </div>
   );
 }

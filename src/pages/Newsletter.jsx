@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Header from "../components/Header";
 import NewsletterForm from "../components/NewsletterForm";
 import ScrollReveal from "scrollreveal";
+import { useTheme } from "..";
 
 export default function Newsletter() {
   useEffect(() => {
@@ -14,8 +15,11 @@ export default function Newsletter() {
     sr.reveal(".newsletter-title", { origin: "top" });
     sr.reveal(".newsletter-description", { origin: "bottom" });
   });
+
+  const { currentTheme } = useTheme();
+
   return (
-    <>
+    <div className="newsletter-page-wrapper" data-theme={currentTheme}>
       <Header />
       <div className="container">
         <div className="newsletter-container">
@@ -29,6 +33,6 @@ export default function Newsletter() {
           <NewsletterForm />
         </div>
       </div>
-    </>
+    </div>
   );
 }

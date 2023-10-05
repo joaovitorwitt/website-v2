@@ -84,7 +84,7 @@ export default function About() {
                       className="list-link"
                       rel="noreferrer"
                     >
-                      <i class="fa-brands fa-twitter"></i>
+                      <i className="fa-brands fa-twitter"></i>
                     </a>
                   </li>
 
@@ -95,7 +95,7 @@ export default function About() {
                       className="list-link"
                       rel="noreferrer"
                     >
-                      <i class="fa-brands fa-instagram"></i>
+                      <i className="fa-brands fa-instagram"></i>
                     </a>
                   </li>
                 </ul>

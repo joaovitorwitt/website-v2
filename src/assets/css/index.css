@@ -35,13 +35,6 @@
   transition: 0.4s;
 }
 
-.about-page-wrapper {
-  background-color: var(--default-background-color);
-  color: var(--default-text-color);
-  transition: 0.4s;
-  height: 100vh;
-}
-
 html {
   /* 10px */
   font-size: 62.5%;
@@ -318,6 +311,12 @@ button {
 }
 
 /* ABOUT ME STYLES */
+.about-page-wrapper {
+  background-color: var(--default-background-color);
+  color: var(--default-text-color);
+  transition: 0.4s;
+  height: 100vh;
+}
 
 .section-description {
   gap: 2.5rem;
@@ -526,6 +525,7 @@ button {
   text-transform: uppercase;
   margin: auto;
   text-align: center;
+  color: var(--default-text-color);
 }
 
 .button-fill {
@@ -648,6 +648,11 @@ button {
 }
 
 /* SINGLE PROJECT PAGE */
+.project-page-wrapper {
+  background-color: var(--default-background-color);
+  color: var(--default-text-color);
+  height: 100vh;
+}
 
 .project-image-data img {
   margin: 0 auto;
@@ -721,6 +726,11 @@ button {
 }
 
 /* SINGLE ARTICLE PAGE */
+.article-page-wrapper {
+  background-color: var(--default-background-color);
+  color: var(--default-text-color);
+}
+
 .blog-post {
   padding-bottom: 5rem;
 }
@@ -799,6 +809,13 @@ button {
 }
 
 /* NEWSLETTER PAGE */
+.newsletter-page-wrapper {
+  background-color: var(--default-background-color);
+  color: var(--default-text-color);
+  transition: 0.4s;
+  height: 100vh;
+}
+
 .newsletter-container {
   max-width: 70%;
   margin: 0 auto;
@@ -831,6 +848,12 @@ button {
 }
 
 /* THANK YOU PAGE */
+.thankyou-page-wrapper {
+  background-color: var(--default-background-color);
+  color: var(--default-text-color);
+  height: 100vh;
+}
+
 .thankyou-description,
 .thankyou-description-two {
   margin-bottom: 4rem;
@@ -853,7 +876,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 100vh;
+  background-color: var(--default-background-color);
+  color: var(--default-text-color);
 }
 
 .error-page-wrapper {
