@@ -7,6 +7,7 @@ import computerScienceField from "./assets/images/article-images/computer-scienc
 import kardashevScaleImage from "./assets/images/article-images/kardashev-scale.jpg";
 import web3BasicsImage from "./assets/images/article-images/web3-basics-article.png";
 import writeDocumentation from "./assets/images/article-images/write-documentation.png";
+import newtonsLawsImage from "./assets/images/article-images/newtonslaws.png";
 
 const ArticleList = [
   {
@@ -1007,8 +1008,130 @@ const ArticleList = [
     <br>
 
     `,
-    image: writeDocumentation,
+    image: newtonsLawsImage,
     date: "12th October 2023",
+  },
+  {
+    id: 10,
+    title: "How The Laws Of Newton Shape Our Reality",
+    description:
+      "Understanding Newton’s Laws is like knowing all the rules of a game. Learn the Fundamental Laws That Shape Our Everyday Lives, Even without us knowing.",
+    content: `<p>“I can calculate the motion of heavenly bodies, but not the madness of people”</p>
+    <br>
+    <p>This quote reveals how well Newton understood about the physical universe and how little he understood about the complex nature of human behavior.</p>
+    <br>
+    <p>I think is safe to say that Sir Isaac Newton is one of the most important people that have contributed to science, physics, and mathematics.</p>
+    <br>
+    <p>Newton's laws explain practically all the things in our everyday lives that we take for granted, like walking, sitting, driving, running, and so on.</p>
+    <br>
+    <p>They describe motion, the causes of motion, and every aspect related to the subject.</p>
+    <br>
+    <p>Newton’s laws are often described as three separate laws, but when we zoom out and look at the big picture we can see that they are actually pretty close to each other, without the first one we wouldn't have the second one, and without the second one we wouldn't have the third one.</p>
+    <br>
+    <p>Like an old friend of mine used to say: ”They are connecting to each other”
+    <br>
+    <p>So make yourself balanced and let's learn about Newton’s laws.</p>
+    <br>
+    <h3>First Law</h3>
+    <br>
+    <p>“If the net force on a body is zero the velocity will not change.”</p>
+    <br>
+    <p>An object at rest remains at rest, and an object in motion remains in motion at a constant speed and in a straight line unless acted on by an unbalanced force.</p>
+    <br>
+    <p>In other words, objects tend to keep doing what they are doing. Imagine a ball, if the ball is moving it tends to stay moving, and if the ball is stopped tends to stay stopped.</p>
+    <br>
+    <p>In the context of the ball, the unbalanced forces would be the friction between the ball and the ground and the air resistance, eventually stopping the ball.</p>
+    <br>
+    <p>So, if there was no friction between the ball and the ground and the resistance of the air was zero, the ball would just move forever at a constant speed on a straight line.</p>
+    <br>
+    <p>This law is often referred to as the Law of Inertia.</p>
+    <br>
+    <p>To get an object to move you must first overcome the Inertia.</p>
+    <br>
+    <p>This may sound silly but have you ever wondered why it is easier to push a bike compared to pushing a truck?</p>
+    <br>
+    <p>Well, the answer lies in Inertia</p>
+    <br>
+    <p>But what is Inertia?</p>
+    <br>
+    <p>Inertia is the tendency of an object to resist changes in a state of motion</p>
+    <br>
+    <p>Inertia is the reason why it is easier to push a bike compared to pushing a truck. Inertia is also the reason why an object tends to keep doing what is doing.</p>
+    <br>
+    <p>To move anything, you must first overcome Inertia.</p>
+    <br>
+    <p>Here are a few examples:</p>
+    <br>
+    <p>At the beginning of a game of soccer, the ball will stay will the middle of the field unless the player makes the first kick, in other words, an unbalanced force will act on the ball.</p>
+    <br>
+    <p>Another common example in our everyday lives is when we suddenly hit the brakes on the car, the Inertia of our body tends to move us forward even after the car is stopped, according to Newton’s first law.</p>
+    <br>
+    <p>That leads us directly to the second law.</p>
+    <br>
+    <h3>Second Law</h3>
+    <br>
+    <p>“The acceleration of an object depends on the object's mass and the amount of force applied.”</p>
+    <br>
+    <p>According to Newton's second law, to move an object we need to apply some force to the object, causing the object to accelerate.</p>
+    <br>
+    <p>And since mass is also involved, to move an object with a larger mass we need a higher acceleration.</p>
+    <br>
+    <p>Here is the formula:</p>
+    <br>
+    <p><i>∑ F = m . a</i></p>
+    <br>
+    <p>Where F is the total or net force on a given system, m is the mass of the body, and a is the acceleration.</p>
+    <br>
+    <p>The total force on a body is equal to the product of the body’s mass and its acceleration.</p>
+    <br>
+    <p>As we can see, the acceleration of an object depends directly on the force applied.</p>
+    <br>
+    <p>It's essential to notice that for this law to be applicable, the mass of the object must be constant.</p>
+    <br>
+    <p>Here are some examples:</p>
+    <br>
+    <p>In the supermarket, we notice that is easier to push the cart when it's empty, that's because as the cart gets filled with more stuff the mass increases, and that requires a greater force to accelerate the cart.</p>
+    <br>
+    <p>As I mentioned earlier, this also applies to moving a bike compared to moving a truck, the bike has less mass so it is easier to push, while the truck has much more mass so it will require a lot of force in order to accelerate.</p>
+    <br>
+    <h3>Third Law</h3>
+    <br>
+    <p>“For every action, there is always an equal and opposite reaction”</p>
+    <br>
+    <p>The third law explains why when we start riding a bike we go forward instead of backward or in any other direction.</p>
+    <br>
+    <p>When we drop a ball on the ground the ball exerts a force on the ground, that's the action, and the ground immediately reacts by exerting another equal force on the ball in the opposite direction.</p>
+    <br>
+    <p>So a better definition for Newton’s third law would be: For every force, there is an equal and opposite force.</p>
+    <br>
+    <p>Since the forces are equal in magnitude and opposite in direction.</p>
+    <br>
+    <p>Picture the Earth orbiting the Sun, the Sun is more massive than the Earth, yet both exert the same force on each other.</p>
+    <br>
+    <h3>Conclusion</h3>
+    <br>
+    <p>Throughout this article we noticed that Newton’s laws are not just mere concepts or formulas that we find in a boring textbook in your grandma's bookshelf, they are actual principles that shape our daily lives and the world around us.</p>
+    <br>
+    <p>That’s what is awesome about those laws.</p>
+    <br>
+    <p>Understanding those laws is like achieving the maximum level on a game, making you aware of every single action, response, and principle of that game</p>
+    <br>
+    <p>It's important to mention that Newton’s laws are excellent for modeling our real-world experiences, but they do have some limitations.</p>
+    <br>
+    <p>Those limitations happen when a given object starts to approach the speed of light or is on the atomic scale.</p>
+    <br>
+    <p>If an object does not have a constant mass, or it is traveling close to the speed of light we need to consider relativity, so the laws of  Newton no longer fit the situation.</p>
+    <br>
+    <p>For the sake of revision:</p>
+    <br>
+    <p>First law: An object at rest remains at rest, and an object in motion remains in motion at constant speed and in a straight line unless acted on by an unbalanced force.</p>
+    <br>
+    <p>Second law: The acceleration of an object depends on the object's mass and the amount of force applied.</p>
+    <br>
+    <p>Third law: Whenever one object exerts a force on another object, the second object exerts an equal and opposite force on the first.</p>
+    `,
+    image: writeDocumentation,
+    date: "17th October 2023",
   },
 ];
 
