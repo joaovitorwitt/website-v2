@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2d8f6229.css",
-    "main.js": "/static/js/main.9112125e.js",
+    "main.js": "/static/js/main.5f3dd788.js",
     "static/js/787.40303df4.chunk.js": "/static/js/787.40303df4.chunk.js",
     "static/media/stop-studying-programming.png": "/static/media/stop-studying-programming.63d0103c14eb8752182e.png",
     "static/media/high-level-project.png": "/static/media/high-level-project.e1b19d5aa49c492fa46b.png",
@@ -14,6 +14,7 @@
     "static/media/walking-on-thin-ice-ai.png": "/static/media/walking-on-thin-ice-ai.bf7b42d6fed9f7eb5601.png",
     "static/media/placeholder2.png": "/static/media/placeholder2.d8fc6fa80ef1c225a8d6.png",
     "static/media/placeholder.png": "/static/media/placeholder.f98b755bdc99acbee3f4.png",
+    "static/media/newtonslaws.png": "/static/media/newtonslaws.a3f1f9db905a537ea176.png",
     "static/media/web3-basics-article.png": "/static/media/web3-basics-article.3affb2f52a5ed9e19206.png",
     "static/media/write-code-like-human.png": "/static/media/write-code-like-human.0c5f3cc012eda4f7ed52.png",
     "static/media/computer-science-field.png": "/static/media/computer-science-field.cd593d52398b884e4f11.png",
@@ -25,11 +26,11 @@
     "static/media/sparkle_alt_light.png": "/static/media/sparkle_alt_light.b19cff272d282b866648.png",
     "index.html": "/index.html",
     "main.2d8f6229.css.map": "/static/css/main.2d8f6229.css.map",
-    "main.9112125e.js.map": "/static/js/main.9112125e.js.map",
+    "main.5f3dd788.js.map": "/static/js/main.5f3dd788.js.map",
     "787.40303df4.chunk.js.map": "/static/js/787.40303df4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d8f6229.css",
-    "static/js/main.9112125e.js"
+    "static/js/main.5f3dd788.js"
   ]
 }
