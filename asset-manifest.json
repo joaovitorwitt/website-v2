@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2d8f6229.css",
-    "main.js": "/static/js/main.5f3dd788.js",
+    "main.js": "/static/js/main.17a7abb3.js",
     "static/js/787.40303df4.chunk.js": "/static/js/787.40303df4.chunk.js",
     "static/media/stop-studying-programming.png": "/static/media/stop-studying-programming.63d0103c14eb8752182e.png",
     "static/media/high-level-project.png": "/static/media/high-level-project.e1b19d5aa49c492fa46b.png",
@@ -26,11 +26,11 @@
     "static/media/sparkle_alt_light.png": "/static/media/sparkle_alt_light.b19cff272d282b866648.png",
     "index.html": "/index.html",
     "main.2d8f6229.css.map": "/static/css/main.2d8f6229.css.map",
-    "main.5f3dd788.js.map": "/static/js/main.5f3dd788.js.map",
+    "main.17a7abb3.js.map": "/static/js/main.17a7abb3.js.map",
     "787.40303df4.chunk.js.map": "/static/js/787.40303df4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d8f6229.css",
-    "static/js/main.5f3dd788.js"
+    "static/js/main.17a7abb3.js"
   ]
 }
