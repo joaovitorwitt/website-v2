@@ -1131,7 +1131,7 @@ const ArticleList = [
     <p>Third law: Whenever one object exerts a force on another object, the second object exerts an equal and opposite force on the first.</p>
     `,
     image: writeDocumentation,
-    date: "17th October 2023",
+    date: "19th October 2023",
   },
 ];
 
