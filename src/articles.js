@@ -8,6 +8,7 @@ import kardashevScaleImage from "./assets/images/article-images/kardashev-scale.
 import web3BasicsImage from "./assets/images/article-images/web3-basics-article.png";
 import writeDocumentation from "./assets/images/article-images/write-documentation.png";
 import newtonsLawsImage from "./assets/images/article-images/newtonslaws.png";
+import designPatternsImage from "./assets/images/article-images/another-desing-patterns.png";
 
 const ArticleList = [
   {
@@ -996,15 +997,15 @@ const ArticleList = [
     <br>
     <p>Let's go over some tools and resources that can be used to help you with that.</p>
     <br>
-    <p><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>: This is an excellent way to host your documentation for your project. Given the fact that it offers built-in markdown code and it's so easy to share it with others.</p>
+    <p><a href="https://github.com" target="_blank" rel="noreferrer" class="newpage-link">GitHub</a>: This is an excellent way to host your documentation for your project. Given the fact that it offers built-in markdown code and it's so easy to share it with others.</p>
     <br>
-    <p><a href="https://www.gitbook.com" target="_blank" rel="noreferrer">GitBook</a>: This one is specific for hosting documentation. The best thing is that allows integrations with platforms like Google Analytics, Slack, and Jira. Great choice If you are a solo developer looking to scale your personal projects.</p>
+    <p><a href="https://www.gitbook.com" target="_blank" rel="noreferrer" class="newpage-link">GitBook</a>: This one is specific for hosting documentation. The best thing is that allows integrations with platforms like Google Analytics, Slack, and Jira. Great choice If you are a solo developer looking to scale your personal projects.</p>
     <br>
-    <p><a href="https://readthedocs.org" target="_blank" rel="noreferrer">Read the Docs</a>: With this one, you can build your documentation straight from the source code, and it will automatically deploy once you push the changes. You can start for free, and it also comes with various features. </p>
+    <p><a href="https://readthedocs.org" target="_blank" rel="noreferrer" class="newpage-link">Read the Docs</a>: With this one, you can build your documentation straight from the source code, and it will automatically deploy once you push the changes. You can start for free, and it also comes with various features. </p>
     <br>
-    <p><a href="https://swagger.io" target="_blank" rel="noreferrer">Swagger</a>: Trust me, if your application deals with APIs you will definitely want to use this. Besides providing a visual interface for your requests, Swagger will also write the documentation based on your API functionality.</p>
+    <p><a href="https://swagger.io" target="_blank" rel="noreferrer" class="newpage-link">Swagger</a>: Trust me, if your application deals with APIs you will definitely want to use this. Besides providing a visual interface for your requests, Swagger will also write the documentation based on your API functionality.</p>
     <br>
-    <p><a href="https://www.mkdocs.org" target="_blank" rel="noreferrer">MkDocs</a>: This one is a no-brainer, simple to use, and it generates static pages for your markdown files. You can also customize it with themes and plugins to make it more appealing if you what I mean.</p>
+    <p><a href="https://www.mkdocs.org" target="_blank" rel="noreferrer" class="newpage-link">MkDocs</a>: This one is a no-brainer, simple to use, and it generates static pages for your markdown files. You can also customize it with themes and plugins to make it more appealing if you what I mean.</p>
     <br>
 
     `,
@@ -1132,6 +1133,122 @@ const ArticleList = [
     `,
     image: writeDocumentation,
     date: "19th October 2023",
+  },
+  {
+    id: 11,
+    title: "The Real Reason to Learn Design Patterns",
+    description:
+      "Some people say that you should learn Design Patterns to write better code while others say that you should learn to improve your communication. Those are all important factors to consider, but let me show you the real reason to learn Design Patterns.",
+    content: `<p>When we come across the word “design” we often think about something specific, the process of creating and planning something or solving a problem, always with a goal in mind, just like placing the last piece in a giant puzzle.</p>
+    <br>
+    <p>Perhaps it is safe to say that designs should be specific to the problem at hand, and at the same time, they should also address future issues that might or might not occur.</p>
+    <br>
+    <p>As you dive into the Object-Oriented World you will start to notice a lot of experienced developers tell you not to reinvent the wheel, in other words, use solutions that worked for them in the past.</p>
+    <br>
+    <p>So, once you start doing this, you will eventually realize that exist patterns in those same solutions, and you will start to find relations that you didn't know existed before, allowing you to take advantage of these relations to enhance your workflow and coding experience.</p>
+    <br>
+    <p>But you might be wondering what exactly is a design pattern, how it works, and why it is so important in the coding world. So, without wasting any time let's get straight into answering those questions.</p>
+    <br>
+    <h3>What is a Design Pattern?</h3>
+    <br>
+    <p>You know the saying: “If there is a sign, there is a history behind it”.</p>
+    <br>
+    <p>As I mentioned, before every design pattern there was once a problem.</p>
+    <br>
+    <p>Design patterns are solutions to recurring problems, Design Patterns provide you with descriptions of how to solve a problem. Instead of having a boilerplate code ready to copy and paste.</p>
+    <br>
+    <p>They represent some level of abstraction that addresses common issues in the Object-Oriented realm.</p>
+    <br>
+    <p>What this means is that Design Patterns are not about specific lines of code or are attached to a programming language, they do not focus on the technical level, instead, they focus on the overall structure of the code, providing you with efficient ways to solve problems.</p>
+    <br>
+    <p>Design Patterns are divided into four fundamental categories.</p>
+    <br>
+    <h3>Pattern Name</h3>
+    <br>
+    <p>The first one, and perhaps the most important, is the name of the Pattern, as we know the purpose of a name is to uniquely identify a person, a concept, or any entity.</p>
+    <br>
+    <p>The Pattern name helps us instantly visualize and communicate the big picture of the problem, like what is this going to solve? What will it look like?</p>
+    <br>
+    <h3>The Problem</h3>
+    <br>
+    <p>The second one is the actual problem, before applying any pattern we must first understand the problem at its full length, and there are a couple of ways to go about understanding the problem.</p>
+    <br>
+    <p>Since each design pattern will focus on a particular Object-Oriented problem, we must have at the tip of our pen all the consequences, constraints, and trade-offs of its use. After getting all of this out of the way, the problem will become crystal clear.</p>
+    <br>
+    <h3>The Solution</h3>
+    <br>
+    <p>Having taken the time to understand the problem we can start thinking about the solution. The solution will often describe the elements that combined, make up the full design, that includes the relationships, classes, objects, and so on. Solution and problem will always work together when applying any pattern.</p>
+    <br>
+    <h3>The Consequences</h3>
+    <br>
+    <p>And the last one is the consequences. Since programming is all about trade-offs, there will be situations where, for instance, time will be extremely valuable, but using a faster solution might cost you more memory, so you must always be aware of consequences when choosing a pattern.</p>
+    <br>
+    <h3>How to Know Which One To Use</h3>
+    <br>
+    <p>It is funny that we have at our disposal formulas that can estimate the mass of a black hole. Still, sadly there is not a universal formula that can calculate the correct pattern you should use based on the problem that you are trying to solve.</p>
+    <br>
+    <p>Fortunately, we do have a few questions and methods that you can use that will tell you which design pattern you might want to apply to your specific needs.</p>
+    <br>
+    <p>First things first, you need to understand in theory what the pattern does and what problems it solves, for that, simply ask yourself this question: What is the nature of the problem?</p>
+    <br>
+    <p>Imagine that you need to create a system on which a library can manage and keep track of its books, allowing users to search for a specific book, check their availability, and borrow them.</p>.
+    <br>
+     <p>After some time, the number of books and users kept increasing, making the system slow and deprecated, where books are not always updated and there are many existing issues.</p>
+    <br>
+    <p>A more experienced developer will look at this situation and immediately realize that we might have a structural problem, taking into regard the inefficiencies and inaccuracies when it comes to the data stored and the user experience.</p>
+    <br>
+    <p>After some digging, you might say: “I need a design pattern that will enhance the data organization and optimize the user interactions with the platform, making the system, once again, efficient”.</p>
+    <br>
+    <p>After researching everything you could about the problem and its solutions, you might want to start looking for real-world uses of the same design pattern you want to use. To achieve this goal, search for software, systems, or applications where the same pattern is currently being used.</p>
+    <br>
+    <p>This will give a pretty good understanding of how the pattern works, allowing you to see it working in practice.</p>
+    <br>
+    <p>And just like on any construction, before starting to put rocks and bricks together we must first create a blueprint of the building that will help translate the project from paper to the real world.</p>
+    <br>
+    <p>With software or applications, it is the same thing, we need to create some kind of graphical representation of all the classes and objects involved in the project, and for that, you can simply use something like an Object Modeling Technique.</p>
+    <br>
+    <p>The main reason for doing this is that we establish a solid foundation of the project structure, allowing everyone who is working on the project to have clarity and understanding at every step of the way.</p>
+    <br>
+    <h3>Why & When Should You Learn Design Patterns</h3>
+    <br>
+    <p>Eventually, at some point, every developer will come across Design Patterns. This could be through a class, an online course, a blog post, or maybe heard somewhere.</p>
+    <br>
+    <p>So I hate to be that guy in the group who is always saying obvious things, but when creating your first tic-tac-toe app or weather app, you may not want to use any Design Patterns.<p>
+    <br>
+    <p>This would be like using a fire hose to extinguish a match. It is just too much.</p>
+    <br>
+    <p>But after you have built some simple projects and are starting to get some confidence to build something big, Design Patterns will be extremely valuable to you at this point because they will improve your skills as a developer.</p>
+    <br>
+    <p>The other reason why you should learn Design Patterns is because they will allow you to use the best practices when it comes to building projects and at the same thing you will be able to communicate complex ideas on an architectural level.</p>
+    <br>
+    <p>If you are not convinced yet that you should invest some time in learning Design Patterns, here are a few reasons to learn:</p>
+    <br>
+    <p>The first one worth mentioning is the code quality.</p>
+    <br>
+    <p>Have you ever looked at some function or any piece of code and thought: “Wow, the person who wrote this is pretty smart!”.</p>
+    <br>
+    <p>You get a similar feeling because Design Patterns will provide a set of tools and solutions for you to write a more organized and cleaner code. Making it easier to understand and scale easily over time, where you can add or remove features with no trouble.</p>
+    <br>
+    <p>Another reason you might consider is the actual knowledge that you get from knowing all this stuff.</p>
+    <br>
+    <p>Nine out of ten jobs will ask for, at least, a fundamental knowledge of Object-Oriented principles, and that includes knowing about inheritance, polymorphism, encapsulation, and abstraction.</p>
+    <br>
+    <p>Having a solid foundation in Design Patterns will also improve your communication skills.</p>
+    <br>
+    <p>Communication is one of the most important pillars of any realm of human knowledge, and coding is no different. You can add so much value to a project when you are familiar with Design Patterns, in other words, you can translate your ideas and thoughts in a way that everyone can understand, ensuring a well-structured codebase.</p>
+    <br>
+    <h3>Final Thoughts</h3>
+    <br>
+    <p>To finish this up, perhaps it is safe to say that Design Patterns shaped many areas of software development and the way we write and think about code.</p>
+    <br>
+    <p>At the end of the day, most people think that learning about Design Patterns is just about writing better code or impressing a coworker, but there is a much bigger reason for that, Design Patterns allow you to tackle complex problems and convert them into elegant solutions.</p>
+    <br>
+    <p>That's where the beauty lies, the light at the end of the tunnel, the amazing feeling of solving a problem. And, as we go deeper and deeper into the sea of software development we start to notice some islands that contain gold, in other words, ways that you can expand your skills and knowledge, and for the journey of mastering your skills of Design Patterns I highly recommend the book that brought this article to live.</p>
+    <br>
+    <p><a href="https://amzn.to/40EEFAb" target="_blank" rel="noreferrer" class="newpage-link">Explore Design Patterns Book Here!</a></p>
+    `,
+    image: designPatternsImage,
+    date: "26th October 2023",
   },
 ];
 

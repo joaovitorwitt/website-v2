@@ -85,6 +85,10 @@ button {
 
 /* REUSABLE CLASSES */
 
+.newpage-link {
+  color: #4169e1;
+}
+
 .container {
   max-width: 54rem;
   margin: 0 auto;
