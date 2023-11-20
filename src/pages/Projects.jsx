@@ -8,17 +8,17 @@ import { useTheme } from "..";
 export default function Projects() {
   const { currentTheme } = useTheme();
 
-  useEffect(() => {
-    const sr = ScrollReveal({
-      distance: "50px",
-      duration: 1500,
-      easing: "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
-    });
+  // useEffect(() => {
+  //   const sr = ScrollReveal({
+  //     distance: "50px",
+  //     duration: 1500,
+  //     easing: "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
+  //   });
 
-    sr.reveal(".main-title-projects", { origin: "top" });
-    sr.reveal(".portfolio-card", { interval: 200 });
-    sr.reveal(".disclaimer", { origin: "left" });
-  });
+  //   sr.reveal(".main-title-projects", { origin: "top" });
+  //   sr.reveal(".portfolio-card", { interval: 200 });
+  //   sr.reveal(".disclaimer", { origin: "left" });
+  // });
 
   // TODO - add field for a more detailed description for the individual page
   // TODO - come up with mathematical formula to always get results in the range of 6 (perhaps the remaining operator)
