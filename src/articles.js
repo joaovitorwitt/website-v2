@@ -1,14 +1,14 @@
-import howAIWillTransformEducation from "./assets/images/article-images/how-ai-will-transform-education.png";
+import howAIWillTransformEducation from "./assets/images/article-images/Ai Will Transform Education.jpg";
 import walkingOnThinIceWithAI from "./assets/images/article-images/walking-on-thin-ice-ai.png";
 import WriteCommitMessagesRight from "./assets/images/article-images/write-commit-messages-right.jpg";
 import stopStudyingProgramming from "./assets/images/article-images/stop-studying-programming.png";
 import writeCodeLikeHuman from "./assets/images/article-images/write-code-like-human.png";
 import computerScienceField from "./assets/images/article-images/computer-science-field.png";
 import kardashevScaleImage from "./assets/images/article-images/kardashev-scale.jpg";
-import web3BasicsImage from "./assets/images/article-images/web3-basics-article.png";
+import web3BasicsImage from "./assets/images/article-images/Preparing For Blockchain.jpg";
 import writeDocumentation from "./assets/images/article-images/write-documentation.png";
 import newtonsLawsImage from "./assets/images/article-images/newtonslaws.png";
-import designPatternsImage from "./assets/images/article-images/another-desing-patterns.png";
+import designPatternsImage from "./assets/images/article-images/Design Patterns Article.jpg";
 
 const ArticleList = [
   {
