@@ -1,9 +1,9 @@
 import howAIWillTransformEducation from "./assets/images/article-images/Ai Will Transform Education.jpg";
-import walkingOnThinIceWithAI from "./assets/images/article-images/walking-on-thin-ice-ai.png";
+import walkingOnThinIceWithAI from "./assets/images/article-images/Walking On Thin Ice AI.jpg";
 import WriteCommitMessagesRight from "./assets/images/article-images/write-commit-messages-right.jpg";
-import stopStudyingProgramming from "./assets/images/article-images/stop-studying-programming.png";
+import stopStudyingProgramming from "./assets/images/article-images/Stop Studying Programming.jpg";
 import writeCodeLikeHuman from "./assets/images/article-images/write-code-like-human.png";
-import computerScienceField from "./assets/images/article-images/computer-science-field.png";
+import computerScienceField from "./assets/images/article-images/Computer Science Landscape.jpg";
 import kardashevScaleImage from "./assets/images/article-images/kardashev-scale.jpg";
 import web3BasicsImage from "./assets/images/article-images/Preparing For Blockchain.jpg";
 import writeDocumentation from "./assets/images/article-images/write-documentation.png";
