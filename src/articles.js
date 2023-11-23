@@ -6,7 +6,7 @@ import writeCodeLikeHuman from "./assets/images/article-images/write-code-like-h
 import computerScienceField from "./assets/images/article-images/Computer Science Landscape.jpg";
 import kardashevScaleImage from "./assets/images/article-images/kardashev-scale.jpg";
 import web3BasicsImage from "./assets/images/article-images/Preparing For Blockchain.jpg";
-import writeDocumentation from "./assets/images/article-images/write-documentation.png";
+import writeDocumentation from "./assets/images/article-images/Newtons Law Image.jpg";
 import newtonsLawsImage from "./assets/images/article-images/newtonslaws.png";
 import designPatternsImage from "./assets/images/article-images/Design Patterns Article.jpg";
 
