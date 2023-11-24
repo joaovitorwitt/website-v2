@@ -1,4 +1,5 @@
 import Placeholder from "../assets/images/placeholder.png";
+import PhysicsEngineImage from "../assets/images/project-images/Physics Engine Project.jpg";
 import Placeholder2 from "../assets/images/placeholder2.png";
 import { Link } from "react-router-dom";
 
@@ -17,7 +18,7 @@ export default function PortfolioSection() {
         <div className="portfolio-cards d-grid">
           <Link to={"/projects/1"} className="portfolio-card portfolio-card-1">
             <div className="card-image">
-              <img src={Placeholder} alt="card1" />
+              <img src={PhysicsEngineImage} alt="card1" />
             </div>
 
             <div className="card-heading">

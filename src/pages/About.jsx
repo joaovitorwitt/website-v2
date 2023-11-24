@@ -9,16 +9,16 @@ import { useTheme } from "..";
 
 export default function About() {
   const { currentTheme } = useTheme();
-  // useEffect(() => {
-  //   const sr = ScrollReveal({
-  //     distance: "50px",
-  //     duration: 1500,
-  //     easing: "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
-  //   });
+  useEffect(() => {
+    const sr = ScrollReveal({
+      distance: "50px",
+      duration: 1500,
+      easing: "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
+    });
 
-  //   sr.reveal(".about-me-picture", { origin: "top" });
-  //   sr.reveal(".about-me-data-container", { origin: "right" });
-  // });
+    sr.reveal(".about-me-picture", { origin: "top" });
+    sr.reveal(".about-me-data-container", { origin: "right" });
+  });
 
   return (
     <div className="about-page-wrapper" data-theme={currentTheme}>

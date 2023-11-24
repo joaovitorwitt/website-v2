@@ -1,5 +1,5 @@
 // project images
-import physicsEngine from "./assets/images/project-images/physics-project.png";
+import physicsEngine from "./assets/images/project-images/Physics Engine Project.jpg";
 import blockchainProject from "./assets/images/project-images/blockchain-project.png";
 import productivityApp from "./assets/images/project-images/productivity-app.png";
 import verticalAI from "./assets/images/project-images/vertical-ai.png";
