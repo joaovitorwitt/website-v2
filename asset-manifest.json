@@ -1,37 +1,37 @@
 {
   "files": {
     "main.css": "/static/css/main.b5eb77cb.css",
-    "main.js": "/static/js/main.c1f79fc1.js",
+    "main.js": "/static/js/main.d8e20f75.js",
     "static/js/787.40303df4.chunk.js": "/static/js/787.40303df4.chunk.js",
-    "static/media/stop-studying-programming.png": "/static/media/stop-studying-programming.63d0103c14eb8752182e.png",
     "static/media/high-level-project.png": "/static/media/high-level-project.e1b19d5aa49c492fa46b.png",
-    "static/media/physics-project.png": "/static/media/physics-project.5ef069054cc3f8b118d5.png",
     "static/media/vertical-ai.png": "/static/media/vertical-ai.877d394fb65071679efb.png",
     "static/media/blockchain-project.png": "/static/media/blockchain-project.df2e854fdcb5ea216206.png",
     "static/media/productivity-app.png": "/static/media/productivity-app.a49b7e9a5c737973baa6.png",
     "static/media/kardashev-scale.jpg": "/static/media/kardashev-scale.e19423dd34f3e839217e.jpg",
     "static/media/statue_hero.png": "/static/media/statue_hero.5c24b95dfabc8d86a279.png",
-    "static/media/walking-on-thin-ice-ai.png": "/static/media/walking-on-thin-ice-ai.bf7b42d6fed9f7eb5601.png",
     "static/media/placeholder2.png": "/static/media/placeholder2.d8fc6fa80ef1c225a8d6.png",
     "static/media/placeholder.png": "/static/media/placeholder.f98b755bdc99acbee3f4.png",
     "static/media/newtonslaws.png": "/static/media/newtonslaws.a3f1f9db905a537ea176.png",
-    "static/media/web3-basics-article.png": "/static/media/web3-basics-article.3affb2f52a5ed9e19206.png",
-    "static/media/another-desing-patterns.png": "/static/media/another-desing-patterns.aee7cca3b5ff5e279e90.png",
     "static/media/write-code-like-human.png": "/static/media/write-code-like-human.0c5f3cc012eda4f7ed52.png",
-    "static/media/computer-science-field.png": "/static/media/computer-science-field.cd593d52398b884e4f11.png",
-    "static/media/how-ai-will-transform-education.png": "/static/media/how-ai-will-transform-education.cb88e59ab8eddb31bfda.png",
-    "static/media/write-documentation.png": "/static/media/write-documentation.610f7b4c39840e54f82c.png",
     "static/media/academic-scraper.png": "/static/media/academic-scraper.44f823f004e26aea49fe.png",
     "static/media/write-commit-messages-right.jpg": "/static/media/write-commit-messages-right.2af21f8b3ab47d5208a5.jpg",
+    "static/media/Physics Engine Project.jpg": "/static/media/Physics Engine Project.a464df1e9e06351f92dc.jpg",
+    "static/media/Newtons Law Image.jpg": "/static/media/Newtons Law Image.c2930eed943991b36439.jpg",
+    "static/media/Computer Science Landscape.jpg": "/static/media/Computer Science Landscape.28e17dc02085f9b7133b.jpg",
+    "static/media/Design Patterns Article.jpg": "/static/media/Design Patterns Article.b3c88af216b89fb18e79.jpg",
+    "static/media/Preparing For Blockchain.jpg": "/static/media/Preparing For Blockchain.5e6a05ac5102005faabb.jpg",
+    "static/media/Stop Studying Programming.jpg": "/static/media/Stop Studying Programming.0d39faa47fed44c948af.jpg",
+    "static/media/Ai Will Transform Education.jpg": "/static/media/Ai Will Transform Education.4ebe423c7d4c57d36e05.jpg",
     "static/media/profile-picture.jpg": "/static/media/profile-picture.dc35f73861503b139ac6.jpg",
+    "static/media/Walking On Thin Ice AI.jpg": "/static/media/Walking On Thin Ice AI.2a36560a2004f33858f2.jpg",
     "static/media/sparkle_alt_light.png": "/static/media/sparkle_alt_light.b19cff272d282b866648.png",
     "index.html": "/index.html",
     "main.b5eb77cb.css.map": "/static/css/main.b5eb77cb.css.map",
-    "main.c1f79fc1.js.map": "/static/js/main.c1f79fc1.js.map",
+    "main.d8e20f75.js.map": "/static/js/main.d8e20f75.js.map",
     "787.40303df4.chunk.js.map": "/static/js/787.40303df4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5eb77cb.css",
-    "static/js/main.c1f79fc1.js"
+    "static/js/main.d8e20f75.js"
   ]
 }
