@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import { useParams } from "react-router-dom";
 import ArticleList from "../articles";
 import { useTheme } from "..";
+import NewsletterCard from "../components/NewsletterCard";
 
 export default function Article() {
   const { id } = useParams();
@@ -38,6 +39,8 @@ export default function Article() {
           Return
         </Link>
       </div>
+
+      <NewsletterCard />
     </div>
   );
 }
