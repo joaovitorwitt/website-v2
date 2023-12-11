@@ -9,6 +9,7 @@ import web3BasicsImage from "./assets/images/article-images/Preparing For Blockc
 import writeDocumentation from "./assets/images/article-images/Newtons Law Image.jpg";
 import newtonsLawsImage from "./assets/images/article-images/newtonslaws.png";
 import designPatternsImage from "./assets/images/article-images/Design Patterns Article.jpg";
+import avoidTheseTypesDevelopersImage from "./assets/images/article-images/Avoid These Types Of Developers Article.png";
 
 const ArticleList = [
   {
@@ -1249,6 +1250,219 @@ const ArticleList = [
     `,
     image: designPatternsImage,
     date: "26th October 2023",
+  },
+  {
+    id: 12,
+    title: "The Myth Of The 10x Developer",
+    description:
+      "The topic revolving around the 10x developer its been lurking on the internet these days. This fancy term might be appealing to some people, but let's understand the problem underlying the term.",
+    content: `<p>Let's start this one with a thought experiment, have you ever got to a point while trying to be productive or looking for ways to be productive, where, for instance, instead of studying you were watching a YouTube video on how to study effectively?</p>
+    <br>
+    <p>It is funny when we think about it.</p>
+    <br>
+    <p>Most people get stuck in this never-ending loop of trying to be productive, trying to find the perfect study routine or the perfect hour to code, but the truth is that there is no such thing other than just doing the thing that the back of your mind is telling you to do.</p>
+    <br>
+    <p>And the same logic applies to becoming a so-called “10x developer” or a hyper-productive developer.</p>
+    <br>
+    <p>You won't be able to write code without someone guiding you by hand if you don't understand and break free of a couple of simple concepts.</p>
+    <br>
+    <h3>What Is A 10x Developer?</h3>
+    <br>
+    <p>As you might have figured out already, a 10x developer is a developer that is 10x more productive and efficient when compared to regular developers.</p>
+    <br>
+    <p>Putting it simply, if a regular developer takes 10 hours to solve a problem, a 10x developer will take 1 hour to solve the same problem.</p>
+    <br>
+    <p>But like always, there is a catch.</p>
+    <br>
+    <h3>The 10x Developer is Just a Myth</h3>
+    <br>
+    <p>I remember back in the PlayStation 2 era, when playing GTA San Andreas most people, including me, thought that if you went to a specific location on the map you would find the Bigfoot.</p>
+    <br>
+    <p>The information quickly spread across many players, because in those days we only had forums on which people could communicate, so there weren't a lot of ways to verify if the game had this mythical creature.</p>
+    <br>
+    <p>But unfortunately, that was just a myth.</p>
+    <br>
+    <p>Just like the concept of the 10x developer.</p>
+    <br>
+    <p>To clarify though, we might have developers among us who can produce 10 times more code than the average developer.</p>
+    <br>
+    <p>But don't get your expectations too high, perhaps they are not what you expect them to be.</p>
+    <br>
+    <p>So just like with the Bigfoot myth from GTA San Andreas, some actions led to the creation of the myth of the 10x developer.</p>
+    <br>
+    <p>And according to my fellow <a href="https://www.simplethread.com/author/jetheredge/" target="_blank" rel="noreferrer" class="newpage-link">Justin Etheredge</a>, here are a few, let's say, archetypes, or in other words engineers that helped build the foundation of the 10x myth.</p>
+    <br>
+    <h3>The One Who Prefers The Path Of Least Resistance</h3>
+    <br>
+    <p>We all have that one guy in school who for the group project, always did the introduction and bibliography and called it a day.</p>
+    <br>
+    <p>The same thing happens with software engineering, there is the person who is always picking the easiest tasks out of the board.</p>
+    <br>
+    <p>So when the day ends the project leader looks at the board that is full of completed tasks by the same person and says: “Wow, you put in the hours today”.</p>
+    <br>
+    <h3>The One Who Tries To Reinvent The Well</h3>
+    <br>
+    <p>This one is like creating an autonomous robot just to make a simple sandwich.</p>
+    <br>
+    <p>People always consider these types of developers as 10x developers just because they like to make a lot of noise about any problem they are solving.</p>
+    <br>
+    <p>But at the end of the day, it's just complex solutions to simple problems.</p>
+    <br>
+    <p>Don't get me wrong, it's awesome to have someone who can formulate and execute complex ideas, we just need to know in which situations this will be useful.</p>
+    <br>
+    <h3>The Half Finisher</h3>
+    <br>
+    <p>“It is better not doing something than doing something in half”.</p>
+    <br>
+    <p>I think we all did this at some point in our lives, even with coding.</p>
+    <br>
+    <p>Marking a task as complete, even though you did not complete the task is like twisting the fabric of reality or playing with the third law of Newton, action-reaction.</p>
+    <br>
+    <p>Eventually, all that uncompleted work will catch up to you, creating a huge mess and making other developers stop their work just to fix something that could’ve been easily avoided.</p>
+    <br>
+    <h3>The One Whos Keeps On Coding </h3>
+    <br>
+    <p>In all human endeavors, most of the time quantity does not equal quality.</p>
+    <br>
+    <p>Of course, there are situations like a deadline for a project that will require you to write code faster.</p>
+    <br>
+    <p>But nine out of ten times rushed code ends up with poor quality. Having to rely on teammates to clean up afterward.</p>
+    <br>
+    <p>Then we have a snowball effect.</p>
+    <br>
+    <h3>Why do We Have A Concept Like This?</h3>
+    <br>
+    <p>I just listed a few examples of programmers who give credit to the 10x developer myth, but that does not explain the full scope of the situation.</p>
+    <br>
+    <p>You might be wondering why or how a concept like this came into existence.</p>
+    <br>
+    <p>We can look back 70 years and start to see the field of software engineering coming to life in the form of assembly language and other low-level languages. People were starting to write code during World War II.</p>
+    <br>
+    <p>So it is definitely safe to say the programming goes back a while now.</p>
+    <br>
+    <p>Throughout the years we had so many people writing code, building stuff, and helping the industry grow and at the same time, the concept of a 10x developer was gradually rising.</p>
+    <br>
+    <p>So you can imagine a few developers coming and going, each and every single one of them having a unique way of being, whether is writing code or just their personality.</p>
+    <br>
+    <p>The first reason that might have led to the creation of the 10x myth is that developers with more experience write far more code than other developers with less experience, making the more experienced ones stand out in the long term</p>
+    <br>
+    <p>Another reason for that is simply the visibility.</p>
+    <br>
+    <p>Bill Gates is not a better coder just because he created Microsoft, Mark Zuckerberg is also not a better coder just because he developed Facebook, and the same applies to anyone.</p>
+    <br>
+    <p>Success stories like the ones from above might guide you in the wrong direction, giving too much credit to extraordinary achievements.</p>
+    <br>
+    <p>In any science, whether in chemistry, physics, or medicine, we all have this tendency to put certain people on pedestals, especially with coding when we all give too much credit to a single individual and forget all the teamwork along the way.</p>
+    <br>
+    <p>Lastly, it is important to point out that since programming is mostly a creative endeavor, we still do not have practical ways to quantify metrics, unlike a player in a soccer match in which we can tell if the player played well based on how many goals he scored or how many passes he got it right.</p>
+    <br>
+    <h3>What it Really Means to be a Hyper-Productive Developer</h3>
+    <br>
+    <p>In any realm of human endeavor, being productive often will lead you to subjects like:</p>
+    <br>
+    <p>Manage your time effectively, set clear tasks, or be clear about your goals.</p>
+    <br>
+    <p>While all those topics are valid, It took me some time to understand this straightforward thing:</p>
+    <br>
+    <p>All these tips and tricks will most certainly lead to some form of procrastination because, at the end of the day, you are not focusing on getting the work done, you are just worried about implementing methods and tips that will offer you a false feeling of job done.</p>
+    <br>
+    <p>So how can you become a developer who will stand out from the crowd?</p>
+    <br>
+    <p>One of the simplest and most common, yet effective, advice is to always receive new knowledge, and never stop learning. Look at challenges as opportunities for growth.</p>
+    <br>
+    <p>Technology is crazy, it never stops changing. You cannot just learn HTML, CSS, and JavaScript and call it a day. You must go beyond that, learning new frameworks, tools, and libraries.</p>
+    <br>
+    <p>You must always be a sponge when it comes to new information, but at the same time, you also need to apply this new information to your life, always expanding your horizon.</p>
+    <br>
+    <h3>Look For These Type Of Developers Below</h3>
+    <br>
+    <p>Earlier in the article, I presented to you some archetypes of developers that might reinforce the 10x myth.</p>
+    <br>
+    <p>But now that you know which types of developers you want to avoid, you may be wondering what are some developers that will definitely add value to my team.</p>
+    <br>
+    <p>You can also take this list as an inspiration for becoming one of them.</p>
+    <br>
+    <h3>The Interrogator</h3>
+    <br>
+    <p>“The man who asks a question is a fool for a minute, the man who does not ask is a fool for life.”</p>
+    <br>
+    <p>I remember in my first job as a developer I had this mentor who would always explain how things work on a given project, so most of the time I would ask questions to him, so whenever I didn't ask any questions he would always point out that maybe I did not fully understand something.</p>
+    <br>
+    <p>People often assume that asking questions shows signs that you do not completely understand the subject at hand.</p>
+    <br>
+    <p>But asking questions is the most efficient way to understand anything in life. This is the way that developers like this will go about solving any problem.</p>
+    <br>
+    <p>This allows the person to understand every single aspect of the problem, leaving no stone unturned.</p>
+    <br>
+    <h3>I Am A Simple Man</h3>
+    <br>
+    <p>These are the types of developers that can take any kind of complex problem and solve it in the most simple and unimaginable way possible. I bet that those kinds of developers could solve quantum gravity in a cave with a box of scraps.</p>
+    <br>
+    <p>Having developers who can solve complex problems in simple ways can make a positive impact on your team.</p>
+    <br>
+    <h3>The Ones That Fix The Problem Instead </h3>
+    <br>
+    <p>Those types of developers will go a long way to solve any problem but they are hard to come by.</p>
+    <br>
+    <p>You can argue that most of the time this is not the best practice and perhaps it is counter-intuitive. But there are times when instead of trying to find a solution, we might as well redesign the problem in a way that fits the current context of the problem we are trying to solve.</p>
+    <br>
+    <h3>The Obsessor</h3>
+    <br>
+    <p>Some people say that a problem is a chance for you to do your best, while others say that to solve a problem we need to dig at the roots instead of hacking the leaves.</p>
+    <br>
+    <p>And that is incredibly true for the types of developers who just won't give up when working through a problem.</p>
+    <br>
+    <p>Those types of developers wake up and go to sleep thinking about the problem and they will not rest until the problem is not solved.</p>
+    <br>
+    <h3>Knows One Thing At Its Full Length</h3>
+    <br>
+    <p>Let me ask you a question:</p>
+    <br>
+    <p>Is it better to know 25% about 4 different things or know 100% about 1 thing?</p>
+    <br>
+    <p>You simply cannot compete with the developers that chose the latter.</p>
+    <br>
+    <p>That is the reason you should always look for someone with a deep understanding of a subject, usually that person will be able to solve any problem in that realm.</p>
+    <br>
+    <h3>Slows Down To Speed Up</h3>
+    <br>
+    <p>“Give me six hours to chop down a tree and I will spend the first four sharpening the axe”.</p>
+    <br>
+    <p>That is also true when it comes to writing code.</p>
+    <br>
+    <p>As you may know, writing code is the easiest part.</p>
+    <br>
+    <p>The challenge lies in coming up with the solutions for the problem you are trying to solve.</p>
+    <br>
+    <p>Developers like this are exceptional because they don't just go with the first solution that comes to their mind, they wait, research, and try to find the best practices</p>
+    <br>
+    <p>And only after this extensive process they will write the code and declare the problem solved.</p>
+    <br>
+    <h3>Bullseye</h3>
+    <br>
+    <p>it's been proved that 2 hours of focused work is better than 8 hours of unfocused work.</p>
+    <br>
+    <p>We have been seeing a lot of news about people getting easily distracted because of social media, phones, or anything that might grab our attention.</p>
+    <br>
+    <p>As a developer who spends most of the day staring at a screen, we can easily fall into this trap, it all starts with checking email but then when we see, another full hour goes by.</p>
+    <br>
+    <p>With that in mind, in today's world just knowing how to code is not enough, it is a must to be able to block all distractions and lock into the flow.</p>
+    <br>
+    <p>When it comes to productivity and getting the work done, these types of developers are the ones who usually excel at that.</p>
+    <br>
+    <h3>Wrapping Up</h3>
+    <br>
+    <p>I hope that at this point you are more familiar with all the different types of developers in today's world.</p>
+    <br>
+    <p>With this in mind, perhaps you might want to avoid a few types.</p>
+    <br>
+    <p>But at the end of the day, they all contribute in some way to the community.</p>
+    <br>
+    <p>See you in the next one.</p>
+    <br>
+    `,
+    image: avoidTheseTypesDevelopersImage,
+    date: "2nd November 2023",
   },
 ];
 
