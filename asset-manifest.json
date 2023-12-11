@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b5eb77cb.css",
-    "main.js": "/static/js/main.d8e20f75.js",
+    "main.js": "/static/js/main.58c850fa.js",
     "static/js/787.40303df4.chunk.js": "/static/js/787.40303df4.chunk.js",
     "static/media/high-level-project.png": "/static/media/high-level-project.e1b19d5aa49c492fa46b.png",
     "static/media/vertical-ai.png": "/static/media/vertical-ai.877d394fb65071679efb.png",
@@ -16,6 +16,7 @@
     "static/media/academic-scraper.png": "/static/media/academic-scraper.44f823f004e26aea49fe.png",
     "static/media/write-commit-messages-right.jpg": "/static/media/write-commit-messages-right.2af21f8b3ab47d5208a5.jpg",
     "static/media/Physics Engine Project.jpg": "/static/media/Physics Engine Project.a464df1e9e06351f92dc.jpg",
+    "static/media/Avoid These Types Of Developers Article.png": "/static/media/Avoid These Types Of Developers Article.b1b892a7de63ac395284.png",
     "static/media/Newtons Law Image.jpg": "/static/media/Newtons Law Image.c2930eed943991b36439.jpg",
     "static/media/Computer Science Landscape.jpg": "/static/media/Computer Science Landscape.28e17dc02085f9b7133b.jpg",
     "static/media/Design Patterns Article.jpg": "/static/media/Design Patterns Article.b3c88af216b89fb18e79.jpg",
@@ -27,11 +28,11 @@
     "static/media/sparkle_alt_light.png": "/static/media/sparkle_alt_light.b19cff272d282b866648.png",
     "index.html": "/index.html",
     "main.b5eb77cb.css.map": "/static/css/main.b5eb77cb.css.map",
-    "main.d8e20f75.js.map": "/static/js/main.d8e20f75.js.map",
+    "main.58c850fa.js.map": "/static/js/main.58c850fa.js.map",
     "787.40303df4.chunk.js.map": "/static/js/787.40303df4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5eb77cb.css",
-    "static/js/main.d8e20f75.js"
+    "static/js/main.58c850fa.js"
   ]
 }
