@@ -10,6 +10,27 @@ import writeDocumentation from "./assets/images/article-images/Newtons Law Image
 import newtonsLawsImage from "./assets/images/article-images/newtonslaws.png";
 import designPatternsImage from "./assets/images/article-images/Design Patterns Article.jpg";
 import avoidTheseTypesDevelopersImage from "./assets/images/article-images/Avoid These Types Of Developers Article.png";
+import kinematicsArticleImage from "./assets/images/article-images/kinematics-thumb.png";
+// IMAGES ASSOCIATED WITH THE KINEMATICS ARTICLE
+import coordinateAxis from "./assets/images/article-images/kinematics-article-images/coordinate axis.png";
+import displacementFormula from "./assets/images/article-images/kinematics-article-images/displacement formula.png";
+import displacementExample from "./assets/images/article-images/kinematics-article-images/displacement-example.png";
+import displacementCalculation from "./assets/images/article-images/kinematics-article-images/displacement calculation.png";
+import displacementFormulaStep from "./assets/images/article-images/kinematics-article-images/displacement formula step by step.png";
+import averageVelocityFormula from "./assets/images/article-images/kinematics-article-images/average velocity formula.png";
+import averageSpeedFormula from "./assets/images/article-images/kinematics-article-images/average speed formula.png";
+import averageSpeedProblem from "./assets/images/article-images/kinematics-article-images/average speed problem.png";
+import averageVelocityProblem from "./assets/images/article-images/kinematics-article-images/average velocity problem.png";
+import averageAccelerationFormula from "./assets/images/article-images/kinematics-article-images/average-acceleration.png";
+import preciseAccelerationFormula from "./assets/images/article-images/kinematics-article-images/precise-average-acceleration.png";
+import firstEquation from "./assets/images/article-images/kinematics-article-images/first-equation.png";
+import secondEquation from "./assets/images/article-images/kinematics-article-images/second-equation.png";
+import thirdEquation from "./assets/images/article-images/kinematics-article-images/third-equation.png";
+import kinematicsFormulas from "./assets/images/article-images/kinematics-article-images/kinematics formulas.png";
+import galileoExperiment from "./assets/images/article-images/kinematics-article-images/Galileo experiment.png";
+import gravityValue from "./assets/images/article-images/kinematics-article-images/gravity-value.png";
+import freefallIllustration from "./assets/images/article-images/kinematics-article-images/freefall-illustration.png";
+import finalFreefallProblem from "./assets/images/article-images/kinematics-article-images/step-by-step freefall problem.png";
 
 const ArticleList = [
   {
@@ -1463,6 +1484,355 @@ const ArticleList = [
     `,
     image: avoidTheseTypesDevelopersImage,
     date: "2nd November 2023",
+  },
+  {
+    id: 13,
+    title: "Kinematics In One Dimension",
+    description:
+      "Motion is one of the most important foundations when it comes to understanding physics and our reality. Most of the time it is the starting point for every student.",
+    content: `<p><i>“Nothing is too wonderful to be true, if it be consistent with the laws of nature”</i></p>
+    <br>
+    <p>— Michael Faraday</p>
+    <br>  
+    <p>The Earth moves around the Sun at a speed of about 100.000 Km/h, which is approximately 30.000 meters each second.</p>
+    <br>
+    <p>Just for context, the fastest vehicle in the world, which is an aircraft called NASA X-43, can reach a speed of about 12.000 Km/h. That’s barely 10% of the earth's speed around the sun.</p>
+    <br>
+    <p>Motion is present in everything we do, and it goes way beyond walking, driving, and flying, motion can be used to describe the orbit of a planet and even the orbit of an electron around the core of an atom.</p>
+    <br>
+    <p>Motion also takes many forms and shapes.</p>
+    <br>
+    <p>We have <strong>oscillatory motion</strong>, referring to the motion of particles that go back and forth repeatedly.</p>
+    <br>
+    <p>We also have at our disposal periodic motion, which can be used to describe the motion of planets and every motion that repeats itself after some time interval.</p>
+    <br>
+    <p><strong>Random motion</strong> is one of the most interesting types of motion since we currently don't have ways of predicting the motion of an object.</p>
+    <br>
+    <p>Imagine a paper being dropped from any height, we won't be able to come up with an equation that will describe the path of the paper.</p>
+    <br>
+    <p>But since we are only talking about motion in one dimension we are going to leave those subjects for future learning since the topics wander beyond our current scope.</p>
+    <br>
+    <p>Today we have a solid understanding of pretty much all the laws of motion.</p>
+    <br>
+    <p>But it wasn't always like this.</p>
+    <br>
+    <p><strong>“In the absence of air resistance, all bodies fall with the same acceleration, independent of their mass”.</strong></p>
+    <br>
+    <p>This is the famous quote representing the theory of Galileo regarding the free-falling of objects.</p>
+    <br>
+    <p>Although Galileo could not see his experiment in action because of the technological limitations of his time, his theory proved to be right many years later.</p>
+    <br>
+    <p>Newton also contributed a great deal to motion with his <a href="https://joaovitorwitt.com/articles/10" target="_blank" rel="noreferrer" class="newpage-link">laws.</a></p>
+    <br>
+    <p>Perhaps it is safe to say that today we rest on the shoulders of giants.</p>
+    <br>
+    <p>And it's our duty as a civilization to continue to thrive for more and more understanding of our universe and life.</p>
+    <br>
+    <p>And what better way to start this than by comprehending all the basic foundations of kinematics?</p>
+    <br>
+    <h3>Displacement</h3>
+    <br>
+    <p>Displacement can be defined as the difference in position regarding the initial position where the object started.</p>
+    <br>
+    <p>But before going even deeper into understanding displacement, we must always have a frame of reference in our minds, because this will help us practically illustrate the problem.</p>
+    <br>
+    <p>As I mentioned, a frame of reference is simply an easy way to locate the position of an object relative to a reference point.</p>
+    <br>
+    <p>As humans, we can always visualize the problem in our heads, but in physics, it is really common to use a set of coordinate axes.</p>
+    <br>
+    <img src="${coordinateAxis}" alt="Coordinate Axis"/>
+    <br>
+    <p>In most cases, when we are describing a person walking either east or west we tend to use the x-axis. On the other hand, when we are illustrating some object falling we use the y-axis.</p>
+    <br>
+    <p>So we can define <strong>displacement</strong> as the difference between the final and the initial position of an object.</p>
+    <br>
+    <p>Mathematically, we can represent this with the following formula:</p>
+    <br>
+    <img src="${displacementFormula}" alt="Displacement Formula" />
+    <br>
+    <p>Where x2 refers to the final position, and x1 refers to the initial position</p>
+    <br>
+    <p>Let’s understand this further with an example:</p>
+    <br>
+    <p>A person drives 10 km east from his starting point, then 5 km west.</p>
+    <br>
+    <p>Based on our definitions of displacement, it is safe to say that the displacement is 5 km since the person ended 5 kilometers away from the initial position.</p>
+    <br>
+    <img src="${displacementExample}" alt="Displacement Example" />
+    <br>
+    <p>Let's verify this further by plugging the values directly into the formula.</p>
+    <br>
+    <img src="${displacementCalculation}" alt="Displacement Calculation" />
+    <br>
+    <p>It is also important to point out that <strong>displacement</strong> differs from the <strong>total distance</strong> traveled.</p>
+    <br>
+    <p>As the name suggests, the total distance refers to the entire path covered by the object, and displacement is how far the object is from its origin point.</p>
+    <br>
+    <p>Based on our example, the total distance covered by the person driving the car is 15 km.</p>
+    <br>
+    <p>Now that we understand what displacement is, you might be wondering how we go about solving actual problems.</p>
+    <br>
+    <p>Well, let's do this.</p>
+    <br>
+    <p><strong>Imagine a dog starting at x = 25 m on a coordinate space and after walking along the x-axis he ends up on x = -15 m. It then turns around and walks back again ending up on x = 5 m. Determine the dog’s displacement and the total distance traveled by the dog.</strong></p>
+    <br>
+    <img src="${displacementFormulaStep}" alt="Displacement Problem Example" />
+    <br>
+    <h3>Average Velocity</h3>
+    <br>
+    <p>Motion is a huge part of physics, back in the 1500s and 1600s big names like Isaac Newton and Galileo Galilei were laying the foundation for our understanding of motion.</p>
+    <br>
+    <p>As we know motion is directly tied to our lives, almost everything we do revolves around motion, walking, driving, running, you name it.</p>
+    <br>
+    <p>Consequently, motion and velocity work together just like hammer and nail.</p>
+    <br>
+    <p>In our everyday lives, the terms velocity and speed are often used as the same thing.</p>
+    <br>
+    <p>But when we are trying to comprehend the laws of physics we must make a distinction between velocity and speed.</p>
+    <br>
+    <p><strong/>Velocity</strong> refers to the <strong>displacement</strong> of an object divided by the elapsed time. We already know that displacement is the difference between the final and initial position of an object.</p>
+    <br>
+    <img src="${averageVelocityFormula}" alt="Average Velocity Formula" />
+    <br>
+    <p>On the other hand, <strong>speed</strong> or average speed can be defined as the total distance traveled by an object divided by the total time. If a truck travels 250 km in 5 hours we can say that the average speed of the truck is 50 km/h.</p>
+    <br>
+    <img src="${averageSpeedFormula}" alt="Average Speed Formula" />
+    <br>
+    <p>Let's go a little deeper with our same dog example.</p>
+    <br>
+    <p><strong>The dog started on x = 25 m, then he walked along the horizontal axis and ended up on x = -15 m, finally the dog circles around and stopped on x = 5 m. Imagine that the total time was 20 seconds.</strong></p>
+    <br>
+    <p>Let's start with the average speed.</p>
+    <br>
+    <img src="${averageSpeedProblem}" alt="Average Speed Problem" />
+    <br>
+    <p>We know first that the dog started on x = 25 m and went to x = -15 m, which gives us <strong>40 m</strong> walked.</p>
+    <br>
+    <p>Then from x = -15 m, he went back to x = 5 m, which gives us <strong>20 m.</strong></p>
+    <br>
+    <p>Adding 40 m to 20 m gives us <strong>60 m.</strong></p>
+    <br>
+    <p>Applying the average speed formula, we can figure out that the average speed of the dog is <strong>3 m/s.</strong></p>
+    <br>
+    <p>Since we are talking about the average speed we don't need to worry about the negative signs because we only care about the total distance covered by the dog.</p>
+    <br>
+    <p>But now this changes a bit when calculating the <strong>average velocity.</strong></p>
+    <br>
+    <p>We know for certain that the dog started on x = 25 m (initial position) and ended up on x = 5 m (final position).</p>
+    <br>
+    <img src="${averageVelocityProblem}" alt="Average Velocity Problem" />
+    <br>
+    <p>In this context, we only need to worry about the final position relative to the origin point.</p>
+    <br>
+    <p>Applying the average velocity formula we get:</p>
+    <br>
+    <p>Displacement = 5 m - 25 m = <strong>-20 m</strong></p>
+    <br>
+    <p>Dividing our displacement by the total time the dog took we get our average velocity of <strong>-1 m/s.</strong></p>
+    <br>
+    <p>The answer is negative because according to our frame of reference, the dog walked back in the negative direction.</p>
+    <br>
+    <h3>Acceleration</h3>
+    <br>
+    <p>Now that we understand the laws of velocity we can start to look at acceleration since it is directly tied to velocity.</p>
+    <br>
+    <p>An object is said to be accelerating whenever a change in velocity occurs</p>
+    <br>
+    <p>Putting in more formal terms, acceleration can be defined as the <strong>change in velocity</strong> divided by a <strong>time interval.</strong></p>
+    <br>
+    <p>This means that when we say an object has an acceleration 5 m/s2 we are basically saying the object accelerates 5 m/s each second. That also explains why the second unit is squared on acceleration.</p>
+    <br>
+    <img src="${averageAccelerationFormula}" alt="Average Acceleration Formula" />
+    <br>
+    <p>We can represent more precisely this relationship between the velocity and time in this formula:</p>
+    <br>
+    <img src="${preciseAccelerationFormula}" alt="Average Acceleration Formula" />
+    <br>
+    <p>There will be times when physics problems will involve a bunch of terms like velocity, position, time, and acceleration.</p>
+    <br>
+    <p>It is important to point out that we are talking about <strong>constant acceleration</strong>, in other words, the change in velocity stays the same. If we say that a particle has an acceleration of 5 m/s2 this acceleration will be the same throughout the entire motion.</p>
+    <br>
+    <p>So for that, we will need to find useful equations that will allow us to solve any problem related to constant acceleration.</p>
+    <br>
+    <p>In most kinematics problems related to motion, we want to find the velocity after a given time. For instance, we might want to know the velocity of a car after 15 seconds.</p>
+    <br>
+    <p>To achieve that we can simply grab our previous acceleration equation and solve for “v” giving us:</p>
+    <br>
+    <img src="${firstEquation}" alt="First Kinematics Equation" />
+    <br>
+    <p>Sometimes we might also want to know the <strong>position</strong> of an object after a given time. </p>
+    <br>
+    <img src="${secondEquation}" alt="Second Kinematics Equation" />
+    <br>
+    <p>Now you might be wondering the situations in which time is not known or we do not care about the time. Well for that we have this one:</p>
+    <br>
+    <img src="${thirdEquation}" alt="Third Kinematics Equation" />
+    <br>
+    <p>All three formulas above relate velocity, acceleration, position, and time.</p>
+    <br>
+    <p>At this point in our learning, you have all the building blocks necessary to solve any kinematics problem that appears in your way.</p> 
+    <br>
+    <p>For reference, below there are all the useful kinematics equations for constant acceleration.</p>
+    <br>
+    <img src="${kinematicsFormulas}" alt="Kinematics Formulas" />
+    <br>
+    <h3>Freefall objects</h3>
+    <br>
+    <p>This happened many years before Galileo’s time.</p>
+    <br>
+    <p>Just like people believed that the Sun orbits the Earth.</p>
+    <br>
+    <p>People also used to believe that heavier objects fall faster than lighter objects because of their mass.</p> 
+    <br>
+    <p>But now we can safely conclude that the <strong>speed of a falling object is not proportional to its mass.</strong></p>
+    <br>
+    <p>Galileo idealized a scenario in which, in the absence of air resistance all the objects would fall at the same speed.</p>
+    <br>
+    <p>If I said that objects will float because angels hold them, then I will need to develop ways of testing my theory.</p>
+    <br>
+    <p>In the scientific world, a theory that cannot be tested is considered less scientific because it lacks empirical evidence.</p>
+    <br>
+    <p>Although Galileo had some technological limitations for his time, he knew that.</p>
+    <br>
+    <p>That's why he idealized a scenario in which, in the absence of air resistance all the objects would fall at the same speed.</p>
+    <br>
+    <p>It is nice when a theory can be tested, so to support his ideas he used the following demonstration and argument:</p>
+    <br>
+    <p>A rock dropped from a height of 2 meters will have a larger impact on the ground than the same rock dropped from a height of 0.3 meters, for that to happen the first rock must be at a higher speed.</p>
+    <br>
+    <p>As I mentioned before, Galileo developed an experiment where we put a rock and a feather on a tube.</p>
+    <br>
+    <p>For the first scenario the tube is filled with air then the rock and the feather are dropped at the same time, and the rock obviously hits the ground first.</p>
+    <br>
+    <p>But this changes in the next experiment.</p>
+    <br>
+    <p>Interestingly enough, when we remove all the air from the tube, after releasing the rock and the feather at the same time we confirm that both objects fall at the same speed.</p>
+    <br>
+    <p>Hitting the floor at the same time.</p>
+    <br>
+    <img src="${galileoExperiment}" alt="Galileo Experiment" />
+    <br>
+    <p>You can check the real experiment by clicking here [insert link here]</p>
+    <br>
+    <p>At this point in our learning, we are forgetting the most important aspect.</p>
+    <br>
+    <p>What is this “speed” that makes all objects fall towards the center of Earth?</p>
+    <br>
+    <p>Well, my friend, this acceleration is caused by Gravity.</p>
+    <br>
+    <img src="${gravityValue}" alt="Gravity Value" />
+    <br>
+    <p>Gravity is present in many topics in physics, it's basically the foundation of our universe, and it's extremely unlikely that we are going to fully understand or solve it anytime soon. Because of that, I will create a separate article in the near future.</p>
+    <br>
+    <p>For now, you just need to know that when we drop an object, the force of gravity makes the object accelerate at a rate of 9.8 m/s2 towards the center of Earth.</p>
+    <br>
+    <p>The million-dollar question now is:</p>
+    <br>
+    <p>Can we use our kinematics formulas from before to solve free-falling problems?</p>
+    <br>
+    <p>Well, dear reader, the answer is YES!</p>
+    <br>
+    <p>Let's solve one right now.</p>
+    <br>
+    <p><strong>A person throws a ball upward with an initial velocity of 20 m/s. Calculate how high it goes.</strong></p>
+    <br>
+    <p>Right from the start this problem tells us two things:</p>
+    <br>
+    <p>— The first one is that it wants to know the <strong>position.</strong></p>
+    <br>
+    <p>— The second is the <strong>initial velocity</strong> of the ball right when it leaves the person’s hand.</p>
+    <br>
+    <p>Equipped with this knowledge, we can now draw a diagram illustrating the problem.</p>
+    <br>
+    <img src="${freefallIllustration}" alt="Free fall Problem Illustration" />
+    <br>
+    <p>Point A is where the ball leaves the person's hand with an initial velocity of 20 meters per second.</p>
+    <br>
+    <p>Between point A and point B, we have a downward acceleration caused by gravity which makes the speed of the ball decrease.</p>
+    <br>
+    <p>Since gravity is pulling downward we will have a negative value for our acceleration.</p>
+    <br>
+    <p>The problem is asking us to calculate the maximum height of the ball. </p>
+    <br>
+    <p>We only worry about the A and B intervals.</p>
+    <br>
+    <p>We consider the acceleration caused by gravity negative because is pointing downwards.</p>
+    <br>
+    <p>a = - g = -9.8 m/s2</p>
+    <br>
+    <p>As the ball goes up, its speed decreases until it reaches the highest point where the speed is zero.</p>
+    <br>
+    <p>So now we possess the current quantities:</p>
+    <br>
+    <p>a = -9.8 m/s2</p>
+    <br>
+    <p>V0 =20 m/s </p>
+    <br>
+    <p>V = 0 m/s</p>
+    <br>
+    <p>With only those quantities we can pick the equation that best fits our current problem that we are solving.</p>
+    <br>
+    <img src="${finalFreefallProblem}" alt="Solving Free fall Problem" />
+    <br>
+    <h3>How to solve physics problems</h3>
+    <br>
+    <p>Whether you are meaning to pass your next exam or trying to master the field of physics, learning how to solve problems in the most efficient way is crucial for any physics student.</p>
+    <br>
+    <p>For a long time, I thought that solving a physics problem was about finding the right equation to insert the values. Perhaps at the end of the day, this is not wrong, but it can surely lead you to the wrong path if your goal is to understand physics.</p>
+    <br>
+    <p>I noticed my perception of solving problems was completely out of place, I was finding the right answers but I would never understand why I was using a given formula or why certain steps were taken.</p>
+    <br>
+    <p>An equation is just really a way of numerically representing a correct approximation of a problem, the goal of the equation is not to make you understand physics</p>
+    <br>
+    <p>Instead of trying to find some equation to fill in the values, we need to change our perception of looking at physics problems and instead develop an approach that will make us not only find the correct answer but also understand the core ideas and concepts of the problem.</p>
+    <br>
+    <h3>1) Understand the problem</h3>
+    <br>
+    <p>Before trying any problem we must first understand, and that goes for all areas of life.</p>
+    <br>
+    <p>You won't be able to navigate through a problem without understanding it first. For this first part, I recommend that you read carefully the problem and write down what the problem is asking.</p>
+    <br>
+    <p>If a problem asks “How long does it take?”, you know the final answer should be in time units, or  “How far an object will be?”, the answer will be in length units.</p>
+    <br>
+    <p>You should be familiar with these terms.</p>
+    <br>
+    <h3>2) Illustrate the problem in any way possible</h3>
+    <br>
+    <p>Our brains process visual information better than text, especially when solving a physics question. Draw a chart, diagram, graph, or any visual aid that will help you solidify the concepts.</p>
+    <br>
+    <p>It doesn't need to be scientifically correct as long as you understand.</p>
+    <br>
+    <h3>3) Gather all the given quantities</h3>
+    <br>
+    <p>Go through the problem again and take notes of the values given.</p>
+    <br>
+    <p>After that, you will need to interpret the values, as well as what the problem is asking, to write them into physical form. </p>
+    <br>
+    <p>For instance, when a velocity problem states “an object starts from rest” this means that the initial velocity is 0.</p>
+    <br>
+    <p>Based on the given quantities you will hopefully have some idea of what approach to take for solving the problem.</p>
+    <br>
+    <h3>4) Plan an approach</h3>
+    <br>
+    <p>This is the section in which you will know what the problem wants and the principles involved and with that, you will be able to pick an equation or a method that suits the best.</p>
+    <br>
+    <h3>5) Carry out the calculations</h3>
+    <br>
+    <p>If you followed all the steps above correctly, this is the easiest part. Simply plug the quantities into the formula and solve algebraically for the desired value.</p>
+    <br>
+    <p>After you are done, give some thought to the final result and ask yourself: Does this final result make sense? Are the units correct? Is there any way in which I can verify my result?</p>
+    <br>
+    <p>At the end of the day, all this work you’ve done to solve the problem will pay out, not only for your understanding but also for explaining your thought process to a teacher or classmate.</p>
+    <br>
+    <h3>Wrapping Up</h3>
+    <br>
+    <p>As I said at the beginning of our journey, nowadays we rest on the shoulders of giants, and it's our duty to complete the work they started and push beyond the limits.</p>
+    <br>
+    <p>See you next time!</p>
+    <br>
+    `,
+    image: kinematicsArticleImage,
+    date: "30th December 2023",
   },
 ];
 
