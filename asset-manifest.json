@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b5eb77cb.css",
-    "main.js": "/static/js/main.58c850fa.js",
+    "main.js": "/static/js/main.28f54de9.js",
     "static/js/787.40303df4.chunk.js": "/static/js/787.40303df4.chunk.js",
     "static/media/high-level-project.png": "/static/media/high-level-project.e1b19d5aa49c492fa46b.png",
     "static/media/vertical-ai.png": "/static/media/vertical-ai.877d394fb65071679efb.png",
@@ -24,15 +24,35 @@
     "static/media/Stop Studying Programming.jpg": "/static/media/Stop Studying Programming.0d39faa47fed44c948af.jpg",
     "static/media/Ai Will Transform Education.jpg": "/static/media/Ai Will Transform Education.4ebe423c7d4c57d36e05.jpg",
     "static/media/profile-picture.jpg": "/static/media/profile-picture.dc35f73861503b139ac6.jpg",
+    "static/media/kinematics formulas.png": "/static/media/kinematics formulas.20833af77f15f904adc4.png",
+    "static/media/displacement calculation.png": "/static/media/displacement calculation.afa595ed043a6c825404.png",
+    "static/media/step-by-step freefall problem.png": "/static/media/step-by-step freefall problem.2a092ba029679da6c20d.png",
+    "static/media/Galileo experiment.png": "/static/media/Galileo experiment.03e6a37a3fc7d7b9d40e.png",
+    "static/media/kinematics-thumb.png": "/static/media/kinematics-thumb.0d83f5d30405f3d85446.png",
+    "static/media/displacement formula step by step.png": "/static/media/displacement formula step by step.ddba8559d42c461bda48.png",
     "static/media/Walking On Thin Ice AI.jpg": "/static/media/Walking On Thin Ice AI.2a36560a2004f33858f2.jpg",
+    "static/media/displacement formula.png": "/static/media/displacement formula.9acd42589311f086e47d.png",
+    "static/media/average velocity formula.png": "/static/media/average velocity formula.0bad790ebbd954c4bf80.png",
+    "static/media/average speed formula.png": "/static/media/average speed formula.75b30e21f2387c5a00aa.png",
+    "static/media/average speed problem.png": "/static/media/average speed problem.effc4de061fe09fe0e7a.png",
     "static/media/sparkle_alt_light.png": "/static/media/sparkle_alt_light.b19cff272d282b866648.png",
+    "static/media/average-acceleration.png": "/static/media/average-acceleration.cab522305d321b34a0d0.png",
+    "static/media/displacement-example.png": "/static/media/displacement-example.3d38c6e0ac89c0b45465.png",
+    "static/media/second-equation.png": "/static/media/second-equation.abba0cca7a76013c955d.png",
+    "static/media/third-equation.png": "/static/media/third-equation.167e004f1cef5f6273b5.png",
+    "static/media/average velocity problem.png": "/static/media/average velocity problem.d19950a5ff0e3026b017.png",
+    "static/media/precise-average-acceleration.png": "/static/media/precise-average-acceleration.5c3f552f76ba4ad2ab1d.png",
+    "static/media/first-equation.png": "/static/media/first-equation.71170e39c868c4750cde.png",
+    "static/media/freefall-illustration.png": "/static/media/freefall-illustration.138e7ade1a9e782d67d0.png",
+    "static/media/gravity-value.png": "/static/media/gravity-value.fa385b420779524ecdb0.png",
+    "static/media/coordinate axis.png": "/static/media/coordinate axis.19d683770243a55f4e03.png",
     "index.html": "/index.html",
     "main.b5eb77cb.css.map": "/static/css/main.b5eb77cb.css.map",
-    "main.58c850fa.js.map": "/static/js/main.58c850fa.js.map",
+    "main.28f54de9.js.map": "/static/js/main.28f54de9.js.map",
     "787.40303df4.chunk.js.map": "/static/js/787.40303df4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5eb77cb.css",
-    "static/js/main.58c850fa.js"
+    "static/js/main.28f54de9.js"
   ]
 }
