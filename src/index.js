@@ -62,7 +62,7 @@ const router = createBrowserRouter(
       element: <Project />,
     },
   ],
-  { basename: process.env.PUBLIC_URL }
+  { basename: "/" }
 );
 
 const ThemeContext = createContext();
