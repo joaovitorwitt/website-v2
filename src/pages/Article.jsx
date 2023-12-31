@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import { useParams } from "react-router-dom";
 import ArticleList from "../articles";
 import { useTheme } from "..";
-import NewsletterCard from "../components/NewsletterCard";
 import { Helmet } from "react-helmet";
 
 export default function Article() {
@@ -37,11 +36,7 @@ export default function Article() {
         <meta property="og:image" content={metadata.imageUrl} />
 
         {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={metadata.articleUrl} />
-        <meta property="twitter:title" content={metadata.title} />
-        <meta property="twitter:description" content={metadata.description} />
-        <meta property="twitter:image" content={metadata.imageUrl} />
+        <meta name="twitter:card" content="summary" />
       </Helmet>
       <Header />
       <section className="blog-post section-header-offset">
@@ -66,8 +61,6 @@ export default function Article() {
           Return
         </Link>
       </div>
-
-      <NewsletterCard />
     </div>
   );
 }
