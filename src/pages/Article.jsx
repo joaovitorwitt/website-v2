@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import ArticleList from "../articles";
 import { useTheme } from "..";
 import NewsletterCard from "../components/NewsletterCard";
+import { Helmet } from "react-helmet";
 
 export default function Article() {
   const { id } = useParams();
@@ -14,8 +15,34 @@ export default function Article() {
 
   const { currentTheme } = useTheme();
 
+  const metadata = {
+    title: article.title,
+    description: article.description,
+    imageUrl: article.image,
+    articleUrl: window.location.href,
+  };
+
   return (
     <div className="article-page-wrapper" data-theme={currentTheme}>
+      <Helmet>
+        <title>{metadata.title}</title>
+        <meta name="title" content={metadata.title} />
+        <meta name="description" content={metadata.description} />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={metadata.articleUrl} />
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content={metadata.imageUrl} />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={metadata.articleUrl} />
+        <meta property="twitter:title" content={metadata.title} />
+        <meta property="twitter:description" content={metadata.description} />
+        <meta property="twitter:image" content={metadata.imageUrl} />
+      </Helmet>
       <Header />
       <section className="blog-post section-header-offset">
         <div className="blog-post-container container">
