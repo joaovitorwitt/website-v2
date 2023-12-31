@@ -14,6 +14,7 @@ import Projects from "./pages/Projects";
 import Project from "./pages/Project";
 import ThankYouContact from "./pages/ThankYouContact";
 import { createContext } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const router = createBrowserRouter(
   [
@@ -98,6 +99,7 @@ root.render(
   <React.StrictMode>
     <ThemeProvider>
       <RouterProvider router={router} />
+      <SpeedInsights />
     </ThemeProvider>
   </React.StrictMode>
 );
