@@ -36,7 +36,9 @@ export default function Article() {
         <meta property="og:image" content={metadata.imageUrl} />
 
         {/* Twitter */}
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={metadata.title} />
+        <meta name="twitter:description" content={metadata.description} />
       </Helmet>
       <Header />
       <section className="blog-post section-header-offset">
