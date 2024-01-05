@@ -1,6 +1,3 @@
-import Placeholder from "../assets/images/placeholder.png";
-import PhysicsEngineImage from "../assets/images/project-images/Physics Engine Project.jpg";
-import Placeholder2 from "../assets/images/placeholder2.png";
 import { Link } from "react-router-dom";
 
 export default function PortfolioSection() {
@@ -16,68 +13,101 @@ export default function PortfolioSection() {
         </div>
 
         <div className="portfolio-cards d-grid">
-          <Link to={"/projects/1"} className="portfolio-card portfolio-card-1">
+          <Link
+            to={"/projects/ai-research-model"}
+            className="portfolio-card portfolio-card-1"
+          >
             <div className="card-image">
-              <img src={PhysicsEngineImage} alt="card1" />
+              <img
+                src="https://res.cloudinary.com/djmr9rxjg/image/upload/v1704252733/project-images/physics-model-project_oafck7.png"
+                alt="card1"
+              />
             </div>
 
             <div className="card-heading">
-              <h5 className="card-title">Physics Engine</h5>
+              <h5 className="card-title">AI Research Model</h5>
               <span className="card-subtitle">
-                A place where you can take your physics knowledge to the next
-                level.
+                AI model that can solve complex mathematical and physics
+                questions.
               </span>
             </div>
           </Link>
 
-          <Link to={"/projects/2"} className="portfolio-card portfolio-card-2">
+          <Link
+            to={"/projects/quantum-programming-project"}
+            className="portfolio-card portfolio-card-2"
+          >
             <div className="card-image">
-              <img src={Placeholder2} alt="card1" />
+              <img
+                src="https://res.cloudinary.com/djmr9rxjg/image/upload/v1704252733/project-images/quantum-programming-project_ejqzgb.png"
+                alt="card1"
+              />
             </div>
 
             <div className="card-heading">
-              <h5 className="card-title">Productivity App</h5>
+              <h5 className="card-title">Quantum Programming Project</h5>
               <span className="card-subtitle">
-                Most people say that you cannot buy time. Let me show you
-                something..
+                My Greatest project, shaping the next generation of quantum
+                programing. Stay tunned for updates
               </span>
             </div>
           </Link>
 
-          <Link to={"/projects/3"} className="portfolio-card portfolio-card-3">
+          <Link
+            to={"/projects/blockchain-ecosystem"}
+            className="portfolio-card portfolio-card-3"
+          >
             <div className="card-image">
-              <img src={Placeholder} alt="card1" />
-            </div>
-
-            <div className="card-heading">
-              <h5 className="card-title">Academic Paper Scraper</h5>
-              <span className="card-subtitle">
-                Gather all scientific information from the community all in one
-                place.
-              </span>
-            </div>
-          </Link>
-
-          <Link to={"/projects/4"} className="portfolio-card portfolio-card-4">
-            <div className="card-image">
-              <img src={Placeholder2} alt="card1" />
-            </div>
-
-            <div className="card-heading">
-              <h5 className="card-title">AGI</h5>
-              <span className="card-subtitle">You saw that coming.</span>
-            </div>
-          </Link>
-
-          <Link to={"/projects/5"} className="portfolio-card portfolio-card-5">
-            <div className="card-image">
-              <img src={Placeholder} alt="card1" />
+              <img
+                src="https://res.cloudinary.com/djmr9rxjg/image/upload/v1704252733/project-images/blockchain-project-thumb_mvomf0.png"
+                alt="card1"
+              />
             </div>
 
             <div className="card-heading">
               <h5 className="card-title">Blockchain Ecosystem</h5>
               <span className="card-subtitle">
-                Run, deploy, and test all your blockchain operations.
+                Build, test, run, and deploy all your blockchain operations.
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            to={"/projects/physics-educational-platform"}
+            className="portfolio-card portfolio-card-4"
+          >
+            <div className="card-image">
+              <img
+                src="https://res.cloudinary.com/djmr9rxjg/image/upload/v1704252733/project-images/physics-educational-platform_cdbv7e.jpg"
+                alt="card1"
+              />
+            </div>
+
+            <div className="card-heading">
+              <h5 className="card-title">Physics Educational Platform</h5>
+              <span className="card-subtitle">
+                Take your physics knownledge to the next level with real
+                simulations.
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            to={"/projects/academic-paper-scraper"}
+            className="portfolio-card portfolio-card-5"
+          >
+            <div className="card-image">
+              <img
+                src="https://res.cloudinary.com/djmr9rxjg/image/upload/v1704252733/project-images/web-scraper-project_dfxzau.png"
+                alt="card1"
+              />
+            </div>
+
+            <div className="card-heading">
+              <h5 className="card-title">Academic Paper Scraper</h5>
+              <span className="card-subtitle">
+                Gather all the information from the scientific community in one
+                place
               </span>
             </div>
           </Link>

@@ -34,7 +34,7 @@ const router = createBrowserRouter(
       errorElement: <ErrorPage />,
     },
     {
-      path: "articles/:id",
+      path: "articles/:title",
       element: <Article />,
       errorElement: <ErrorPage />,
     },
@@ -59,7 +59,7 @@ const router = createBrowserRouter(
       errorElement: <ErrorPage />,
     },
     {
-      path: "/projects/:id",
+      path: "/projects/:title",
       element: <Project />,
     },
   ],
