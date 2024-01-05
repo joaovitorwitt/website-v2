@@ -101,7 +101,12 @@ export default function Article() {
             property="og:description"
             content={metadataInfo["description"]}
           />
-          <meta property="og:image" content={metadataInfo["thumbnail"]} />
+          <meta
+            name="image"
+            property="og:image"
+            content={metadataInfo["thumbnail"]}
+          />
+          <meta name="author" content="João Vitor Witt"></meta>
 
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content={metadataInfo["title"]} />
