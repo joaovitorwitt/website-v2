@@ -15,7 +15,7 @@ export default function Project() {
     const fetchProjects = async () => {
       try {
         const response = await fetch(
-          "http://127.0.0.1:8000/api/v1/get/projects/"
+          "https://portfolio-backend-fdxe.onrender.com/api/v1/get/projects/"
         );
         const result = await response.json();
         const correctTitleProject = getCorrectTitle(result.projects);
