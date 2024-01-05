@@ -1,5 +1,4 @@
 import { Link, useParams } from "react-router-dom";
-// import projectsList from "../projects";
 import Header from "../components/Header";
 import { useTheme } from "..";
 import { useEffect, useState } from "react";
@@ -28,7 +27,7 @@ export default function Project() {
     };
 
     fetchProjects();
-  }, [title]); // Added title as a dependency to re-run effect when title changes
+  }, [title]);
 
   function getCorrectTitle(list) {
     return list.find(

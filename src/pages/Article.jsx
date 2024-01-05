@@ -8,10 +8,14 @@ import { useEffect, useState } from "react";
 import LoadingComponent from "../components/LoadingComponent";
 
 export default function Article() {
+  const { currentTheme } = useTheme();
   const { title } = useParams();
 
   const [article, setArticle] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  // metadata states
+  const [metadataInfo, setMetadataInfo] = useState(null);
 
   useEffect(() => {
     const fetchArticles = async () => {
@@ -35,21 +39,16 @@ export default function Article() {
   }, [title]);
 
   function getCorrectTitle(list) {
-    return list.find((article) => formatTitleForURL(article.title) === title);
+    const correct = list.find(
+      (article) => formatTitleForURL(article.title) === title
+    );
+    setMetadataInfo(correct);
+    return correct;
   }
 
   function formatTitleForURL(title) {
     return title.toLowerCase().replace(/\s+/g, "-");
   }
-
-  const { currentTheme } = useTheme();
-
-  // const metadata = {
-  //   title: article.title,
-  //   description: article.description,
-  //   imageUrl: article.image,
-  //   articleUrl: window.location.href,
-  // };
 
   function formatArticleDate(date) {
     // Create a new Date object from the input string
@@ -84,21 +83,34 @@ export default function Article() {
 
   return (
     <div className="article-page-wrapper" data-theme={currentTheme}>
-      {/* <Helmet>
-        <title>{metadata.title}</title>
-        <meta name="title" content={metadata.title} />
-        <meta name="description" content={metadata.description} />
+      {metadataInfo !== null ? (
+        <Helmet>
+          <title>{metadataInfo["title"]}</title>
+          <meta name="title" content={metadataInfo["title"]} />
+          <meta name="description" content={metadataInfo["description"]} />
 
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={metadata.articleUrl} />
-        <meta property="og:title" content={metadata.title} />
-        <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content={metadata.imageUrl} />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:url"
+            content={`https://www.joaovitorwitt.com/articles/${formatTitleForURL(
+              metadataInfo["title"]
+            )}`}
+          />
+          <meta property="og:title" content={metadataInfo["title"]} />
+          <meta
+            property="og:description"
+            content={metadataInfo["description"]}
+          />
+          <meta property="og:image" content={metadataInfo["imageUrl"]} />
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={metadata.title} />
-        <meta name="twitter:description" content={metadata.description} />
-      </Helmet> */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metadataInfo["title"]} />
+          <meta
+            name="twitter:description"
+            content={metadataInfo["description"]}
+          />
+        </Helmet>
+      ) : null}
       <Header />
       <section className="blog-post section-header-offset">
         {loading ? (
